@@ -250,11 +250,11 @@ if (guess.length !== this.wordLength)
 
 | Feature | Before | After |
 |---------|--------|-------|
-| Level Support | ❌ | ✅ `useWordle(level)` |
-| Definition Tracking | ❌ | ✅ `definition` state |
-| Hint Cooldown | ❌ | ✅ `checkHintAvailability()` |
-| Level Progression | ❌ | ✅ `nextLevel()` |
-| Hint Context | ❌ | ✅ `getHintContext()` |
+| Level Support | n/a |  `useWordle(level)` |
+| Definition Tracking | n/a |  `definition` state |
+| Hint Cooldown | n/a |  `checkHintAvailability()` |
+| Level Progression | n/a |  `nextLevel()` |
+| Hint Context | n/a |  `getHintContext()` |
 
 **Usage:**
 
