@@ -1,9 +1,9 @@
 <<<<<<< HEAD
-# 🎮 Wordle-Style Game with Hangman Visuals - React + Vite + TailwindCSS
+# Wordle-Style Game with Hangman Visuals - React + Vite + TailwindCSS
 
 A hybrid word guessing game combining Wordle's sequential input system with Hangman visual feedback, featuring AI-powered hints and a progressive leveling system.
 
-# 🎮 Wordle-Style Game with Hangman Visuals
+# Wordle-Style Game with Hangman Visuals
 
 A hybrid word guessing game combining Wordle's sequential input system with Hangman visual feedback, featuring AI-powered hints and a progressive leveling system.
 
