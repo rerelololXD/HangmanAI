@@ -1,27 +1,27 @@
 # Dictionary System Upgrade — Architecture Guide
 
-## 📋 Summary of Changes
+##  Summary of Changes
 
 You now have a **production-grade dictionary system** with intelligent word selection, level scaling, and AI-ready hint preparation.
 
 ### What Changed:
 
 **NEW FILES:**
-1. ✅ `/src/data/dictionary.json` — 200+ words with definitions
-2. ✅ `/src/game/wordSelector.js` — Smart word filtering by level
-3. ✅ `/src/services/hintService.js` — Hint preparation for Groq API
+1.  `/src/data/dictionary.json` — 200+ words with definitions
+2.  `/src/game/wordSelector.js` — Smart word filtering by level
+3.  `/src/services/hintService.js` — Hint preparation for Groq API
 
 **MODIFIED FILES:**
-1. ✅ `/src/config/gameConfig.js` — Added level settings, difficulty thresholds, hint config
-2. ✅ `/src/game/wordle.js` — Now uses wordSelector, tracks definitions
-3. ✅ `/src/hooks/useWordle.js` — Manages levels, hints, cooldowns
-4. ✅ `/src/components/GuessInput.jsx` — Dynamic word length (no longer hardcoded)
-5. ✅ `/src/components/GameStatus.jsx` — Shows level, difficulty, "Next Level" button
-6. ✅ `/src/App.jsx` — Integrates level system, hint button, definition preview
+1.  `/src/config/gameConfig.js` — Added level settings, difficulty thresholds, hint config
+2.  `/src/game/wordle.js` — Now uses wordSelector, tracks definitions
+3.  `/src/hooks/useWordle.js` — Manages levels, hints, cooldowns
+4.  `/src/components/GuessInput.jsx` — Dynamic word length (no longer hardcoded)
+5.  `/src/components/GameStatus.jsx` — Shows level, difficulty, "Next Level" button
+6.  `/src/App.jsx` — Integrates level system, hint button, definition preview
 
 ---
 
-## 🏗️ New Architecture
+##  New Architecture
 
 ### **Data Flow:**
 
@@ -43,7 +43,7 @@ hintService.createHintContext() → Ready for Groq API
 
 ---
 
-## 📚 Dictionary System Details
+##  Dictionary System Details
 
 ### **File:** `/src/data/dictionary.json`
 
@@ -71,7 +71,7 @@ hintService.createHintContext() → Ready for Groq API
 
 ---
 
-## 🎮 Level System
+##  Level System
 
 ### **File:** `/src/config/gameConfig.js`
 
@@ -86,11 +86,11 @@ LEVEL_SETTINGS: {
 ```
 
 **Key Features:**
-- ✅ 12 levels with increasing difficulty
-- ✅ Word length scales: 5 → 6 → 7 letters
-- ✅ Difficulty filters prevent unfair words
-- ✅ Attempts reduce as you progress (6 → 5)
-- ✅ Names provide player feedback
+-  12 levels with increasing difficulty
+-  Word length scales: 5 → 6 → 7 letters
+-  Difficulty filters prevent unfair words
+-  Attempts reduce as you progress (6 → 5)
+-  Names provide player feedback
 
 ### **How It Works:**
 
@@ -101,7 +101,7 @@ LEVEL_SETTINGS: {
 
 ---
 
-## 🔍 Word Selector
+##  Word Selector
 
 ### **File:** `/src/game/wordSelector.js`
 
@@ -139,14 +139,13 @@ Return word object with metadata
 ```
 
 **Why This Matters:**
-- ✅ Fair difficulty progression
-- ✅ Prevents frustrating words early
-- ✅ Scales up gradually
-- ✅ No repeated words in same level
-
+-  Fair difficulty progression
+-  Prevents frustrating words early
+-  Scales up gradually
+-  No repeated words in same level
 ---
 
-## 💡 Hint Preparation Service
+##  Hint Preparation Service
 
 ### **File:** `/src/services/hintService.js`
 
@@ -206,7 +205,7 @@ Provide a helpful hint now:"
 
 ---
 
-## 🧠 Game Logic Updates
+## Game Logic Updates
 
 ### **File:** `/src/game/wordle.js`
 
@@ -243,7 +242,7 @@ if (guess.length !== this.wordLength)
 
 ---
 
-## ⚛️ Hook Updates
+##  Hook Updates
 
 ### **File:** `/src/hooks/useWordle.js`
 
@@ -279,7 +278,7 @@ const {
 
 ---
 
-## 🎯 How to Extend This
+##  How to Extend This
 
 ### **Add Groq API Integration**
 
@@ -374,8 +373,7 @@ const handleLevelComplete = () => {
 
 ---
 
-## 🔧 Configuration Reference
-
+##  Configuration Reference
 ### **Most Important Config Values**
 
 **Game Difficulty:**
@@ -402,7 +400,7 @@ DIFFICULTY_LABELS[4]  // 'Expert'
 
 ---
 
-## 🎮 Testing the System
+##  Testing the System
 
 ### **Test Level Progression**
 
@@ -434,7 +432,7 @@ console.log(context); // Should show all hint data
 
 ---
 
-## ✅ Benefits Over Old System
+##  Benefits Over Old System
 
 | Aspect | Before | After |
 |--------|--------|-------|
@@ -448,7 +446,7 @@ console.log(context); // Should show all hint data
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 
 1. **Test the game:**
    ```bash
@@ -470,7 +468,7 @@ console.log(context); // Should show all hint data
 
 ---
 
-## 📖 File Reference
+##  File Reference
 
 | File | Purpose | Key Exports |
 |------|---------|-------------|
