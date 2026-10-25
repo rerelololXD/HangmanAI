@@ -1,6 +1,6 @@
 # What Changed — Visual Guide
 
-## 🔄 Data Flow Comparison
+##  Data Flow Comparison
 
 ### BEFORE (Simple)
 ```
@@ -36,7 +36,7 @@ Hint system prepares context for AI
 
 ---
 
-## 🎮 User Experience Changes
+##  User Experience Changes
 
 ### BEFORE
 ```
@@ -65,7 +65,7 @@ Hint system prepares context for AI
 
 [GRID - 6 attempts]
 
-[💡 HINT (3) BUTTON]    ← NEW
+[ HINT (3) BUTTON]    ← NEW
 [ATTEMPTS: 0/6]
 [Level 1: Beginner]     ← NEW
 [Difficulty: Common]    ← NEW
@@ -79,42 +79,42 @@ Hint system prepares context for AI
 
 ---
 
-## 📁 File Structure (What Changed)
+##  File Structure (What Changed)
 
 ```
 wordle-game/
 ├── src/
-│   ├── data/                          ✨ NEW
-│   │   └── dictionary.json            ✨ NEW (200+ words)
+│   ├── data/                           NEW
+│   │   └── dictionary.json             NEW (200+ words)
 │   │
 │   ├── config/
-│   │   └── gameConfig.js              📝 UPDATED (levels, hints)
+│   │   └── gameConfig.js               UPDATED (levels, hints)
 │   │
 │   ├── game/
-│   │   ├── wordle.js                  📝 UPDATED (level support)
-│   │   ├── wordSelector.js            ✨ NEW (smart filtering)
+│   │   ├── wordle.js                   UPDATED (level support)
+│   │   ├── wordSelector.js             NEW (smart filtering)
 │   │   └── wordList.js                - (kept for compatibility)
 │   │
-│   ├── services/                      ✨ NEW
-│   │   └── hintService.js             ✨ NEW (Groq prep)
+│   ├── services/                       NEW
+│   │   └── hintService.js              NEW (Groq prep)
 │   │
 │   ├── hooks/
-│   │   └── useWordle.js               📝 UPDATED (level mgmt)
+│   │   └── useWordle.js                UPDATED (level mgmt)
 │   │
 │   ├── components/
 │   │   ├── GameBoard.jsx              - (no changes needed)
-│   │   ├── GuessInput.jsx             📝 UPDATED (dynamic length)
-│   │   ├── GameStatus.jsx             📝 UPDATED (level info)
-│   │   └── App.jsx                    📝 UPDATED (new features)
+│   │   ├── GuessInput.jsx              UPDATED (dynamic length)
+│   │   ├── GameStatus.jsx              UPDATED (level info)
+│   │   └── App.jsx                     UPDATED (new features)
 │   │
 │   └── ...
 │
-└── DICTIONARY_UPGRADE.md              ✨ NEW (guide)
+└── DICTIONARY_UPGRADE.md               NEW (guide)
 ```
 
 ---
 
-## ⚙️ Configuration Changes
+##  Configuration Changes
 
 ### gameConfig.js BEFORE
 ```javascript
@@ -163,7 +163,7 @@ export const GAME_CONFIG = {
 
 ---
 
-## 🔄 State Changes in Hook
+##  State Changes in Hook
 
 ### useWordle() BEFORE
 ```javascript
@@ -188,7 +188,7 @@ const {
   word, guesses, feedbackHistory, status, 
   attempts, maxAttempts, isGameOver, message,
   
-  // ✨ NEW
+  //  NEW
   definition,           // Word definition
   level,               // Current level (1-12)
   difficulty,          // Word difficulty (1-4)
@@ -199,15 +199,15 @@ const {
   // NEW METHODS
   submitGuess,
   resetGame,
-  nextLevel,           // ✨ Advance to next level
-  requestHint,         // ✨ Request a hint
-  getHintContext,      // ✨ Prepare for Groq API
-} = useWordle(1);      // ✨ Pass initial level
+  nextLevel,           //  Advance to next level
+  requestHint,         //  Request a hint
+  getHintContext,      //  Prepare for Groq API
+} = useWordle(1);      //  Pass initial level
 ```
 
 ---
 
-## 🎯 Component Prop Changes
+##  Component Prop Changes
 
 ### GuessInput BEFORE
 ```jsx
@@ -222,7 +222,7 @@ const {
 <GuessInput 
   onSubmit={submitGuess} 
   isGameOver={false}
-  wordLength={wordLength}  // ✨ NEW (was hardcoded as 5)
+  wordLength={wordLength}  // NEW (was hardcoded as 5)
 />
 ```
 
@@ -244,16 +244,16 @@ const {
   attempts={attempts}
   maxAttempts={maxAttempts}
   isGameOver={isGameOver}
-  level={level}              // ✨ NEW
-  difficulty={difficulty}    // ✨ NEW
+  level={level}              //  NEW
+  difficulty={difficulty}    //  NEW
   onReset={resetGame}
-  onNextLevel={nextLevel}    // ✨ NEW
+  onNextLevel={nextLevel}    //  NEW
 />
 ```
 
 ---
 
-## 💾 Dictionary.json Structure
+##  Dictionary.json Structure
 
 ```json
 {
@@ -285,7 +285,7 @@ const {
 
 ---
 
-## 🚀 New Capabilities
+##  New Capabilities
 
 ### BEFORE
 ```javascript
@@ -320,7 +320,7 @@ game.nextLevel(); // Now level 3, new word selected
 
 ---
 
-## 🧪 Quick Testing Checklist
+##  Quick Testing Checklist
 
 - [ ] Game starts at Level 1
 - [ ] Definition shows as hint preview
@@ -334,7 +334,7 @@ game.nextLevel(); // Now level 3, new word selected
 
 ---
 
-## 📊 Difficulty Progression
+##  Difficulty Progression
 
 | Level | Length | Max Difficulty | Attempts | Example Words |
 |-------|--------|-----------------|----------|---|
@@ -346,9 +346,9 @@ game.nextLevel(); // Now level 3, new word selected
 ---
 
 This upgrade maintains all previous functionality while adding:
-✅ 12-level progression system
-✅ Smart word filtering by difficulty
-✅ Definitions for better hints
-✅ Hint cooldown tracking
-✅ AI-ready context preparation
-✅ Full configurability
+ 12-level progression system
+ Smart word filtering by difficulty
+ Definitions for better hints
+ Hint cooldown tracking
+ AI-ready context preparation
+ Full configurability
