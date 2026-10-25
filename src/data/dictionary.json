@@ -1,0 +1,6031 @@
+{
+  "words": [
+    {
+      "word": "REACT",
+      "definition": "to respond or act in response to something",
+      "difficulty": 1,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "APPLE",
+      "definition": "a round fruit that grows on trees, typically red or green",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "BREAD",
+      "definition": "a staple food made from flour and water",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CHAIR",
+      "definition": "a seat with a back and four legs",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "DREAM",
+      "definition": "images and events in the mind during sleep",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "EARTH",
+      "definition": "the planet we live on; the world",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FIELD",
+      "definition": "an area of land used for farming or sport",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GLASS",
+      "definition": "a transparent material used for windows",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "HAPPY",
+      "definition": "feeling or showing pleasure and contentment",
+      "difficulty": 1,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "HOUSE",
+      "definition": "a building where people live",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "LIGHT",
+      "definition": "natural or artificial illumination",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "MOUSE",
+      "definition": "a small rodent with a long tail",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "MUSIC",
+      "definition": "sounds organized in a pleasing way",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "PIANO",
+      "definition": "a large keyboard musical instrument",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "PLANT",
+      "definition": "a living organism that grows from the ground",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "QUIET",
+      "definition": "making little or no noise",
+      "difficulty": 1,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "RADIO",
+      "definition": "a device for receiving broadcast signals",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SMILE",
+      "definition": "a facial expression showing happiness",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TABLE",
+      "definition": "a piece of furniture with a flat top",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "WATCH",
+      "definition": "to look at someone or something",
+      "difficulty": 1,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "BEACH",
+      "definition": "an area of sandy or pebbly shore",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "BEACH",
+      "definition": "an area of sandy or pebbly shore",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "BLEND",
+      "definition": "to mix different things together",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "BRAIN",
+      "definition": "the organ inside your head that controls thought",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "BRING",
+      "definition": "to carry or take someone or something",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "BUILD",
+      "definition": "to construct or put together",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "CAUSE",
+      "definition": "to make something happen",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "CHAIN",
+      "definition": "a series of connected links or rings",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CHALK",
+      "definition": "a soft white or colored rock used for writing",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CHARM",
+      "definition": "a quality that attracts or delights",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CHESS",
+      "definition": "a board game played with 16 pieces",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CLAIM",
+      "definition": "to state that something is true",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "CLASS",
+      "definition": "a group of students taught together",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CLEAN",
+      "definition": "free from dirt or contamination",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "CLIMB",
+      "definition": "to go up something using hands and feet",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "CLOCK",
+      "definition": "a device that shows the time",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CLOSE",
+      "definition": "near; or to shut something",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective/verb"
+    },
+    {
+      "word": "CLOUD",
+      "definition": "a mass of water vapor in the sky",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "COACH",
+      "definition": "a person who trains or instructs",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CORAL",
+      "definition": "a hard colorful substance found in the sea",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "COUCH",
+      "definition": "a long seat for sitting or lying",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "COURT",
+      "definition": "a place where legal cases are heard",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CRAFT",
+      "definition": "skill in making or doing something",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CRASH",
+      "definition": "a violent collision or impact",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CREAM",
+      "definition": "the fatty part of milk",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CRIME",
+      "definition": "an illegal act or offense",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CRISP",
+      "definition": "dry and crunchy; clear and fresh",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "CROSS",
+      "definition": "to go from one side to the other",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "CROWD",
+      "definition": "a large group of people gathered",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CROWN",
+      "definition": "a jeweled cap worn by royalty",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "DANCE",
+      "definition": "to move rhythmically to music",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "DELTA",
+      "definition": "the fourth letter of the Greek alphabet",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "DEPTH",
+      "definition": "the distance from top to bottom",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "DINER",
+      "definition": "a small restaurant with casual food",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "DOUBT",
+      "definition": "uncertainty or lack of confidence",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "DRAFT",
+      "definition": "a preliminary version of something written",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "DRAIN",
+      "definition": "to remove liquid from something",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "DRANK",
+      "definition": "past tense of drink",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "DRAWN",
+      "definition": "past participle of draw",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "DRESS",
+      "definition": "a garment worn by women",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "DRIED",
+      "definition": "past tense of dry; no longer wet",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "DRIFT",
+      "definition": "to move slowly without direction",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "DRILL",
+      "definition": "a tool for making holes or a practice session",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "DRINK",
+      "definition": "to consume liquid",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "DRIVE",
+      "definition": "to operate a vehicle",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "DROWN",
+      "definition": "to die by being submerged in water",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "ERASE",
+      "definition": "to remove or delete marks or text",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "EVENT",
+      "definition": "something that happens or takes place",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "EXACT",
+      "definition": "precise; completely accurate",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "EXIST",
+      "definition": "to be present or occur",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "FAITH",
+      "definition": "belief without proof; trust",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FAULT",
+      "definition": "a mistake or defect; a line of fracture",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FAVOR",
+      "definition": "approval; a helpful act",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FIGHT",
+      "definition": "to engage in combat or struggle",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "FINAL",
+      "definition": "last or concluding",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "FLAME",
+      "definition": "the visible part of a fire",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FLASH",
+      "definition": "a sudden bright light",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FLEET",
+      "definition": "a group of ships; moving swiftly",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FLOOD",
+      "definition": "an overflow of water",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FLOUR",
+      "definition": "powder made from ground grain",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FOCUS",
+      "definition": "the center of interest or activity",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FORCE",
+      "definition": "strength; military power",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FORGE",
+      "definition": "to create or to falsify",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "FRAME",
+      "definition": "a border or structure for holding something",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FRANK",
+      "definition": "honest and straightforward",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "FRAUD",
+      "definition": "deception for unlawful gain",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FRESH",
+      "definition": "new; not stale or used before",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "FRIED",
+      "definition": "cooked in hot oil",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "FRONT",
+      "definition": "the forward part",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FRUIT",
+      "definition": "the sweet edible part of a plant",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FULLY",
+      "definition": "completely; totally",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adverb"
+    },
+    {
+      "word": "FUNNY",
+      "definition": "causing laughter; amusing",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "GHOST",
+      "definition": "the spirit of a dead person",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GIANT",
+      "definition": "a person or creature of enormous size",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GLOBE",
+      "definition": "a round object; the Earth",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GLOOM",
+      "definition": "darkness or sadness",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GLORY",
+      "definition": "honor or great achievement",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GLOVE",
+      "definition": "a covering for the hand",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GRACE",
+      "definition": "elegance; a prayer before meals",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GRADE",
+      "definition": "a level or rank; to evaluate",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GRAIN",
+      "definition": "small seeds of cereals",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GRAND",
+      "definition": "impressive; of great importance",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "GRANT",
+      "definition": "to give or allow",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "GRAPE",
+      "definition": "a small round fruit that grows in bunches",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GRAPH",
+      "definition": "a diagram showing data or relationships",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GRASS",
+      "definition": "green plants that cover lawns",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GRAVE",
+      "definition": "very serious; a burial place",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GRAVY",
+      "definition": "a sauce made from meat juices",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GRAZE",
+      "definition": "to feed on grass; to scrape lightly",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "GREAT",
+      "definition": "of an ability, quality, or eminence considerably above average",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "GREED",
+      "definition": "intense and selfish desire",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GREEN",
+      "definition": "the color between yellow and blue",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "GREET",
+      "definition": "to welcome or acknowledge",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "GRIEF",
+      "definition": "intense sorrow or sadness",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GRILL",
+      "definition": "to cook over direct heat",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "GRIND",
+      "definition": "to crush into powder",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "GROAN",
+      "definition": "a deep sound of discomfort",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "GROOM",
+      "definition": "a man about to be married; to clean",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GROUP",
+      "definition": "a collection of people or things",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GROVE",
+      "definition": "a small area of trees",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GROWL",
+      "definition": "a deep threatening sound",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "GUESS",
+      "definition": "to estimate without certain knowledge",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "GUEST",
+      "definition": "a person invited to visit",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GUIDE",
+      "definition": "a person who leads or directs",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GUILT",
+      "definition": "responsibility for a wrong act",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "GUITAR",
+      "definition": "a stringed musical instrument",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "INSECT",
+      "definition": "a small animal with six legs",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ISLAND",
+      "definition": "a piece of land surrounded by water",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "JUNGLE",
+      "definition": "a dense forest in tropical areas",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "JOURNEY",
+      "definition": "a trip or passage from one place to another",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "KINGDOM",
+      "definition": "a country ruled by a king or queen",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "KITCHEN",
+      "definition": "a room where food is prepared",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "LANTERN",
+      "definition": "a portable light source",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "LECTURE",
+      "definition": "a talk on a subject to an audience",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "LIBRARY",
+      "definition": "a building containing books",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "LOTTERY",
+      "definition": "a game of chance with prizes",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "MACHINE",
+      "definition": "a device with moving parts",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "MAGNET",
+      "definition": "an object that attracts metal",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MANNER",
+      "definition": "the way something is done",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MARBLE",
+      "definition": "a hard stone or small glass ball",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MARKET",
+      "definition": "a place where goods are sold",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MASTER",
+      "definition": "an expert or skilled person",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MATTER",
+      "definition": "physical substance; a topic of concern",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MEADOW",
+      "definition": "a field of grass",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MEMBER",
+      "definition": "a person who belongs to a group",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MEMORY",
+      "definition": "the ability to recall past events",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MENTOR",
+      "definition": "an experienced adviser or teacher",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MICROSCOPE",
+      "definition": "an instrument for viewing small objects",
+      "difficulty": 4,
+      "length": 10,
+      "category": "noun"
+    },
+    {
+      "word": "MIRAGE",
+      "definition": "an optical illusion in the desert",
+      "difficulty": 4,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MIRROR",
+      "definition": "a reflective surface",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MISCHIEF",
+      "definition": "playful troublemaking",
+      "difficulty": 4,
+      "length": 8,
+      "category": "noun"
+    },
+    {
+      "word": "MISSION",
+      "definition": "a task or purpose",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "MISTAKE",
+      "definition": "an error or oversight",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "MIXTURE",
+      "definition": "a combination of different elements",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "MODERN",
+      "definition": "contemporary; of the present time",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "MODIFY",
+      "definition": "to change or alter",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "MOMENT",
+      "definition": "a brief period of time",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MONITOR",
+      "definition": "a display device or to observe",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "MONSTER",
+      "definition": "a frightening or evil creature",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "MONTHLY",
+      "definition": "happening once a month",
+      "difficulty": 3,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "MORTAL",
+      "definition": "subject to death; fatal",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "MOSAIC",
+      "definition": "a picture made from small pieces",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MOTION",
+      "definition": "movement or a proposed action",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MOUNTAIN",
+      "definition": "a very high hill",
+      "difficulty": 3,
+      "length": 8,
+      "category": "noun"
+    },
+    {
+      "word": "MOVEMENT",
+      "definition": "the act of moving",
+      "difficulty": 3,
+      "length": 8,
+      "category": "noun"
+    },
+    {
+      "word": "MULTIPLE",
+      "definition": "many; more than one",
+      "difficulty": 3,
+      "length": 8,
+      "category": "adjective"
+    },
+    {
+      "word": "MYSTERY",
+      "definition": "something not yet understood",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "MYSTIFY",
+      "definition": "to confuse or perplex",
+      "difficulty": 4,
+      "length": 7,
+      "category": "verb"
+    },
+    {
+      "word": "NARROW",
+      "definition": "small in width",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "NATION",
+      "definition": "a country or large group of people",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "NATURAL",
+      "definition": "occurring in nature; not artificial",
+      "difficulty": 3,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "NATURE",
+      "definition": "the world of plants and animals",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "NEARBY",
+      "definition": "close or adjacent",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "NEBULA",
+      "definition": "a cloud of gas and stars",
+      "difficulty": 4,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "NEEDED",
+      "definition": "required or necessary",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "NEEDLE",
+      "definition": "a thin pointed object for sewing",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "NEGATE",
+      "definition": "to deny or nullify",
+      "difficulty": 4,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "NOTICE",
+      "definition": "to observe or become aware of",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "OBJECT",
+      "definition": "a physical thing; to express disagreement",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "OBTAIN",
+      "definition": "to get or acquire",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "OCCUPY",
+      "definition": "to reside in or take up space",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "OFFEND",
+      "definition": "to cause displeasure or resentment",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "OFFICE",
+      "definition": "a workplace or position of authority",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "OFFSET",
+      "definition": "to balance or counteract",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ONWARD",
+      "definition": "continuing forward or ahead",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "OPAQUE",
+      "definition": "not transparent; unclear",
+      "difficulty": 4,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "OPENER",
+      "definition": "a device for opening; first act",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "OPERATE",
+      "definition": "to run or function",
+      "difficulty": 3,
+      "length": 7,
+      "category": "verb"
+    },
+    {
+      "word": "OPINION",
+      "definition": "a belief or judgment",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "OPPOSE",
+      "definition": "to resist or confront",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "OPTICAL",
+      "definition": "relating to the eye or light",
+      "difficulty": 4,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "OPTIMAL",
+      "definition": "best or most favorable",
+      "difficulty": 4,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "OPTIMIST",
+      "definition": "a person who expects positive outcomes",
+      "difficulty": 4,
+      "length": 8,
+      "category": "noun"
+    },
+    {
+      "word": "OPTION",
+      "definition": "a choice or alternative",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ORACLE",
+      "definition": "a source of prophecy or wisdom",
+      "difficulty": 4,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ORANGE",
+      "definition": "a citrus fruit; the color",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ORBIT",
+      "definition": "path around a celestial body",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "ORCHID",
+      "definition": "an exotic flowering plant",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ORDAIN",
+      "definition": "to command or appoint",
+      "difficulty": 4,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ORIGIN",
+      "definition": "the source or beginning",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ORPHAN",
+      "definition": "a child without parents",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ORTHODOXY",
+      "definition": "traditional or conventional beliefs",
+      "difficulty": 4,
+      "length": 9,
+      "category": "noun"
+    },
+    {
+      "word": "OUTPUT",
+      "definition": "the amount produced",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "OUTRAGE",
+      "definition": "extreme anger or indignation",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "OUTSIDE",
+      "definition": "the external surface or exterior",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "OVERALL",
+      "definition": "viewed as a whole",
+      "difficulty": 3,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "OVERCOME",
+      "definition": "to defeat or conquer",
+      "difficulty": 3,
+      "length": 8,
+      "category": "verb"
+    },
+    {
+      "word": "OVERFLOW",
+      "definition": "to spill over the edge",
+      "difficulty": 3,
+      "length": 8,
+      "category": "verb"
+    },
+    {
+      "word": "OVERLOOK",
+      "definition": "to fail to notice or to ignore",
+      "difficulty": 3,
+      "length": 8,
+      "category": "verb"
+    },
+    {
+      "word": "OVERRIDE",
+      "definition": "to overrule or take precedence",
+      "difficulty": 4,
+      "length": 8,
+      "category": "verb"
+    },
+    {
+      "word": "OVERTAKE",
+      "definition": "to catch up with and pass",
+      "difficulty": 3,
+      "length": 8,
+      "category": "verb"
+    },
+    {
+      "word": "OVERVIEW",
+      "definition": "a general summary",
+      "difficulty": 3,
+      "length": 8,
+      "category": "noun"
+    },
+    {
+      "word": "OWING",
+      "definition": "owed; because of",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "OYSTER",
+      "definition": "a shellfish that produces pearls",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "AMPLE",
+      "definition": "more than enough in size or amount",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "BLAZE",
+      "definition": "a bright flame or intense fire",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "CLING",
+      "definition": "to hold fast or stick closely",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "DIZZY",
+      "definition": "having a sense of spinning and unbalance",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "EPOCH",
+      "definition": "a particular period of time in history",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FOSSIL",
+      "definition": "remains of a once-living organism preserved in rock",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "GALAXY",
+      "definition": "a system of stars, dust, and gas in space",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "HARMONY",
+      "definition": "a pleasing arrangement of sounds or elements",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "INCHES",
+      "definition": "plural of inch; small linear units",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "JACKET",
+      "definition": "a short coat worn for warmth or fashion",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "KERNEL",
+      "definition": "the soft inner part of a seed or nut",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "LIQUID",
+      "definition": "a substance that flows and has no fixed shape",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MAJESTY",
+      "definition": "impressive beauty or dignity",
+      "difficulty": 4,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "NATIVE",
+      "definition": "originally from a given place",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "OCTAGON",
+      "definition": "a shape with eight sides",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "PADDLE",
+      "definition": "a tool used for rowing a boat",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "QUARTZ",
+      "definition": "a hard mineral found in many rocks",
+      "difficulty": 4,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "RACKET",
+      "definition": "a loud noise, or a sports implement",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "SALUTE",
+      "definition": "to show respect by lifting the hand",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "TANGY",
+      "definition": "sharp or pungent in taste",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "UNIFORM",
+      "definition": "consistent in appearance or standard",
+      "difficulty": 3,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "VOLUME",
+      "definition": "amount of space occupied or loudness",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "WANDER",
+      "definition": "to move without a fixed path",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "YANKEE",
+      "definition": "a person from the United States (informal)",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "Zealous",
+      "definition": "having or showing eagerness or enthusiasm",
+      "difficulty": 4,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "ABLAZE",
+      "definition": "filled with light or excitement",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "BILLION",
+      "definition": "the number one thousand million",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "CAPACITY",
+      "definition": "the maximum amount something can hold",
+      "difficulty": 4,
+      "length": 8,
+      "category": "noun"
+    },
+    {
+      "word": "DEFTLY",
+      "definition": "in a skillful or quick way",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "ELASTIC",
+      "definition": "able to stretch and return to original shape",
+      "difficulty": 3,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "FRACTAL",
+      "definition": "a complex pattern created by repeating shapes",
+      "difficulty": 4,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "GALLANT",
+      "definition": "brave or noble behavior",
+      "difficulty": 4,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "HARVEST",
+      "definition": "the process of gathering ripe crops",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "IMPULSE",
+      "definition": "a sudden urge or desire to act",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "JOURNEY",
+      "definition": "a long trip from one place to another",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "KINDRED",
+      "definition": "related by blood or similar nature",
+      "difficulty": 4,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "LANTERN",
+      "definition": "a portable light source with a protective cover",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "MIDNIGHT",
+      "definition": "the middle of the night",
+      "difficulty": 4,
+      "length": 8,
+      "category": "noun"
+    },
+    {
+      "word": "NATURAL",
+      "definition": "existing in or derived from nature",
+      "difficulty": 3,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "ORBITAL",
+      "definition": "relating to an orbit",
+      "difficulty": 3,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "PIXELATE",
+      "definition": "to distort an image into pixel squares",
+      "difficulty": 4,
+      "length": 8,
+      "category": "verb"
+    },
+    {
+      "word": "QUANTITY",
+      "definition": "an amount or number of something",
+      "difficulty": 3,
+      "length": 8,
+      "category": "noun"
+    },
+    {
+      "word": "RADIANT",
+      "definition": "sending out light or heat",
+      "difficulty": 3,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "SILENCE",
+      "definition": "absence of sound or noise",
+      "difficulty": 2,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "TERRAIN",
+      "definition": "land or ground, especially its features",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "UNIFIED",
+      "definition": "made into one unit or whole",
+      "difficulty": 3,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "VARIANT",
+      "definition": "a form or version that differs slightly",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "WEDLOCK",
+      "definition": "the state of being married",
+      "difficulty": 4,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "YEARLY",
+      "definition": "occurring once every year",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "ZIGZAG",
+      "definition": "a line with sharp turns in alternate directions",
+      "difficulty": 4,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ABOUND",
+      "definition": "to exist in large numbers or amounts",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ABSORB",
+      "definition": "to take in or soak up",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ACCEPT",
+      "definition": "to receive or take something offered",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ACCESS",
+      "definition": "the right or opportunity to use something",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ACCUSE",
+      "definition": "to charge someone with an offense or crime",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ADJUST",
+      "definition": "to change something slightly to make it fit",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ADVICE",
+      "definition": "guidance or recommendations offered",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "AFFECT",
+      "definition": "to influence or cause a change in",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "AFFORD",
+      "definition": "to be able to buy or do something",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "AFRAID",
+      "definition": "feeling fear or anxiety",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "AGENCY",
+      "definition": "a business or organization providing a service",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "AGREED",
+      "definition": "having the same opinion about something",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ALIGHT",
+      "definition": "to descend from a vehicle or aircraft",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "AMOUNT",
+      "definition": "a quantity of something",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ANSWER",
+      "definition": "a reply to a question",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ANYHOW",
+      "definition": "in any case or way",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "ANYONE",
+      "definition": "any person at all",
+      "difficulty": 1,
+      "length": 6,
+      "category": "pronoun"
+    },
+    {
+      "word": "ANYWAY",
+      "definition": "in any case; regardless",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "APPEAL",
+      "definition": "a request for help or support",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "APPEAR",
+      "definition": "to come into sight or become visible",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "AROUND",
+      "definition": "on every side of something",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "ARRIVE",
+      "definition": "to reach a destination",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ARTIST",
+      "definition": "a person who creates art",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ASLEEP",
+      "definition": "in a state of sleep",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "ASSERT",
+      "definition": "to state something confidently",
+      "difficulty": 4,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ASSIGN",
+      "definition": "to allocate or give out",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ASSIST",
+      "definition": "to help someone",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ASSUME",
+      "definition": "to suppose something to be true",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ATTACK",
+      "definition": "to try to hurt or defeat someone",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ATTEND",
+      "definition": "to be present at an event",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "AUTHOR",
+      "definition": "a writer of books or articles",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "AUTUMN",
+      "definition": "the season between summer and winter",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "AVENUE",
+      "definition": "a wide road in a town or city",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "BACKED",
+      "definition": "supported or helped",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "BARRIER",
+      "definition": "something that blocks or prevents passage",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "BATTLE",
+      "definition": "a fight between armed forces",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "BEING",
+      "definition": "existence or the state of existing",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "BELIEF",
+      "definition": "an acceptance that something exists or is true",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "BELONG",
+      "definition": "to be in the right place or situation",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "BESIDE",
+      "definition": "next to or at the side of",
+      "difficulty": 2,
+      "length": 6,
+      "category": "preposition"
+    },
+    {
+      "word": "BETTER",
+      "definition": "of superior quality or excellence",
+      "difficulty": 1,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "BEYOND",
+      "definition": "at or to the further side of",
+      "difficulty": 2,
+      "length": 6,
+      "category": "preposition"
+    },
+    {
+      "word": "BISHOP",
+      "definition": "a senior member of the Christian clergy",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "BOTTOM",
+      "definition": "the lowest part or point",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "BOUGHT",
+      "definition": "past tense of buy",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "BRANCH",
+      "definition": "a part of a tree that grows out from the trunk",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "BREATH",
+      "definition": "the air taken into or expelled from the lungs",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "BRIDGE",
+      "definition": "a structure built over a river or road",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "BRIGHT",
+      "definition": "giving out or reflecting a lot of light",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "BROKEN",
+      "definition": "separated into pieces as a result of a blow",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "BUDGET",
+      "definition": "an estimate of income and expenditure",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "BURDEN",
+      "definition": "a heavy load or responsibility",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "BURNED",
+      "definition": "past tense of burn; damaged by fire",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "BUSIER",
+      "definition": "comparative of busy; more occupied",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "BUYING",
+      "definition": "present participle of buy",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "CALLED",
+      "definition": "past tense of call; named or summoned",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "CAMERA",
+      "definition": "a device for taking photographs",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CAMPUS",
+      "definition": "the grounds and buildings of a university",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CANCER",
+      "definition": "a disease caused by uncontrolled cell growth",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CANNOT",
+      "definition": "can not; am/is/are not able to",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "CARBON",
+      "definition": "a chemical element essential for life",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CAREER",
+      "definition": "an occupation undertaken for a significant period",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CASTLE",
+      "definition": "a large fortified building or set of buildings",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CASUAL",
+      "definition": "relaxed and unconcerned",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "CAUGHT",
+      "definition": "past tense of catch",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "CAUSES",
+      "definition": "plural of cause; reasons for something",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CENTER",
+      "definition": "the middle point or part",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CENTRE",
+      "definition": "British spelling of center",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CENTURY",
+      "definition": "a period of one hundred years",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "CERTAIN",
+      "definition": "sure to happen or be the case",
+      "difficulty": 2,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "CHAMBER",
+      "definition": "a room used for a special purpose",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "CHANGED",
+      "definition": "past tense of change; made different",
+      "difficulty": 1,
+      "length": 7,
+      "category": "verb"
+    },
+    {
+      "word": "CHANNEL",
+      "definition": "a length of water wider than a strait",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "CHAPTER",
+      "definition": "a main division of a book",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "CHARITY",
+      "definition": "the voluntary giving of help to those in need",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "CHOICE",
+      "definition": "an act of selecting or making a decision",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CHOOSE",
+      "definition": "to pick out or select from alternatives",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "CHOSEN",
+      "definition": "past participle of choose",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "CHURCH",
+      "definition": "a building used for public Christian worship",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CIRCLE",
+      "definition": "a round plane figure whose boundary consists of points",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CLIENT",
+      "definition": "a person who uses the services of a professional",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CLOSED",
+      "definition": "past tense of close; shut or not open",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "CLOSER",
+      "definition": "comparative of close; nearer",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "CLOUDS",
+      "definition": "plural of cloud; visible masses of water vapor",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "COFFEE",
+      "definition": "a hot drink made from roasted coffee beans",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "COLUMN",
+      "definition": "a vertical pillar supporting a building",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "COMBAT",
+      "definition": "fighting between armed forces",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "COMING",
+      "definition": "present participle of come",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "COMMIT",
+      "definition": "to pledge or bind oneself to a course of action",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "COMMON",
+      "definition": "occurring, found, or done often",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "COMPLY",
+      "definition": "to act in accordance with a wish or command",
+      "difficulty": 4,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "COPPER",
+      "definition": "a reddish-brown metal used for electrical wiring",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CORNER",
+      "definition": "a place where two sides or edges meet",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "COSTLY",
+      "definition": "expensive; costing a lot of money",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "COUNTY",
+      "definition": "a territorial division for local government",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "COUPLE",
+      "definition": "two people who are married or in a relationship",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "COURSE",
+      "definition": "a route or direction followed",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CREATE",
+      "definition": "to bring something into existence",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "CREDIT",
+      "definition": "the ability of a customer to obtain goods before payment",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CRISIS",
+      "definition": "a time of intense difficulty or danger",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "CUSTOM",
+      "definition": "a traditional practice or habitual way of behaving",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DAMAGE",
+      "definition": "physical harm that impairs the value or usefulness",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DANGER",
+      "definition": "the possibility of harm or death",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DEALER",
+      "definition": "a person who buys and sells goods",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DEATH",
+      "definition": "the end of life; the permanent cessation of vital functions",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "DEBATE",
+      "definition": "a formal discussion on a particular topic",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DECENT",
+      "definition": "conforming with generally accepted standards",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "DECIDE",
+      "definition": "to make a choice from a number of alternatives",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "DEFEND",
+      "definition": "to protect against attack or criticism",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "DEFINE",
+      "definition": "to state or describe exactly the nature of",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "DEGREE",
+      "definition": "a unit of measurement for angles or temperature",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DEMAND",
+      "definition": "an insistent and peremptory request",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DEPEND",
+      "definition": "to rely on someone or something",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "DESIGN",
+      "definition": "a plan or drawing produced to show how something works",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DESIRE",
+      "definition": "a strong feeling of wanting to have something",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DETAIL",
+      "definition": "an individual feature or element",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DEVICE",
+      "definition": "a thing made or adapted for a particular purpose",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DIFFER",
+      "definition": "to be unlike or distinct",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "DIGITAL",
+      "definition": "relating to or using signals or information",
+      "difficulty": 4,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "DINNER",
+      "definition": "the main meal of the day, eaten in the evening",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DIRECT",
+      "definition": "moving in a straight line; straightforward",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "DOCTOR",
+      "definition": "a qualified practitioner of medicine",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DOMAIN",
+      "definition": "an area of territory owned or controlled",
+      "difficulty": 4,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DOUBLE",
+      "definition": "consisting of two equal parts",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "DRAGON",
+      "definition": "a mythical creature typically represented as a large reptile",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DRAWER",
+      "definition": "a box-shaped container that can be pulled out",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DRIVER",
+      "definition": "a person who drives a vehicle",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "DURING",
+      "definition": "throughout the course or duration of",
+      "difficulty": 2,
+      "length": 6,
+      "category": "preposition"
+    },
+    {
+      "word": "EASILY",
+      "definition": "without difficulty or effort",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "EATING",
+      "definition": "present participle of eat",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "EDITOR",
+      "definition": "a person who is in charge of and determines content",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "EFFECT",
+      "definition": "a change that is a result or consequence of an action",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "EFFORT",
+      "definition": "a vigorous or determined attempt",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "EIGHTH",
+      "definition": "constituting number eight in a sequence",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "EITHER",
+      "definition": "one or the other of two people or things",
+      "difficulty": 2,
+      "length": 6,
+      "category": "determiner"
+    },
+    {
+      "word": "ELEVEN",
+      "definition": "the number equivalent to the sum of ten and one",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "EMPIRE",
+      "definition": "an extensive group of states or countries under control",
+      "difficulty": 4,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ENABLE",
+      "definition": "to give someone the authority or means to do something",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ENDING",
+      "definition": "an end or final part of something",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ENERGY",
+      "definition": "the strength and vitality required for sustained activity",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ENGAGE",
+      "definition": "to occupy or attract someone's interest or attention",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ENGINE",
+      "definition": "a machine with moving parts that converts power into motion",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ENOUGH",
+      "definition": "as much or as many as required",
+      "difficulty": 2,
+      "length": 6,
+      "category": "determiner"
+    },
+    {
+      "word": "ENTIRE",
+      "definition": "with no part left out; whole",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "EQUITY",
+      "definition": "the quality of being fair and impartial",
+      "difficulty": 4,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ESCAPE",
+      "definition": "to break free from confinement or control",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ESTATE",
+      "definition": "an area of land, especially one used for farming",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ETHICS",
+      "definition": "moral principles that govern behavior",
+      "difficulty": 4,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ETHNIC",
+      "definition": "relating to a population subgroup with common characteristics",
+      "difficulty": 4,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "EUROPE",
+      "definition": "a continent in the northern hemisphere",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "EVENTS",
+      "definition": "plural of event; things that happen",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "EXCEPT",
+      "definition": "not including; other than",
+      "difficulty": 2,
+      "length": 6,
+      "category": "preposition"
+    },
+    {
+      "word": "EXPERT",
+      "definition": "a person with extensive knowledge or skill",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "EXPORT",
+      "definition": "to send goods to another country for sale",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "EXTEND",
+      "definition": "to make something longer or larger",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "EXTENT",
+      "definition": "the area covered by something",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FABRIC",
+      "definition": "cloth or other material produced by weaving",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FACIAL",
+      "definition": "relating to the face",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "FACTOR",
+      "definition": "a circumstance, fact, or influence that contributes",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FAILED",
+      "definition": "past tense of fail; unsuccessful",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "FAIRER",
+      "definition": "comparative of fair; more just or equitable",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "FAITH",
+      "definition": "complete trust or confidence in someone or something",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "FALLEN",
+      "definition": "past participle of fall",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "FAMILY",
+      "definition": "a group consisting of parents and children",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FAMOUS",
+      "definition": "known about by many people",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "FATHER",
+      "definition": "a male parent",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FAULTS",
+      "definition": "plural of fault; imperfections or mistakes",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FAVOUR",
+      "definition": "an act of kindness beyond what is due",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FEAR",
+      "definition": "an unpleasant emotion caused by threat of danger",
+      "difficulty": 1,
+      "length": 4,
+      "category": "noun"
+    },
+    {
+      "word": "FEATURE",
+      "definition": "a distinctive attribute or aspect",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "FEELING",
+      "definition": "an emotional state or reaction",
+      "difficulty": 2,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "FEMALE",
+      "definition": "of or denoting the sex that can bear offspring",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "FIGURE",
+      "definition": "a number, especially one that forms part of official statistics",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FINGER",
+      "definition": "each of the four slender jointed parts attached to the hand",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FINISH",
+      "definition": "to bring something to an end",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "FIRING",
+      "definition": "the act of dismissing someone from employment",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FISCAL",
+      "definition": "relating to government revenue, especially taxes",
+      "difficulty": 4,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "FISHING",
+      "definition": "the activity of catching fish",
+      "difficulty": 2,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "FIXING",
+      "definition": "the action of repairing or mending something",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FLAMES",
+      "definition": "plural of flame; hot glowing bodies of burning gas",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FLEXIBLE",
+      "definition": "capable of bending easily without breaking",
+      "difficulty": 4,
+      "length": 8,
+      "category": "adjective"
+    },
+    {
+      "word": "FLIGHT",
+      "definition": "the action or process of flying through the air",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FLOWER",
+      "definition": "the seed-bearing part of a plant",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FOLDED",
+      "definition": "past tense of fold; bent or doubled over",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "FOLLOW",
+      "definition": "to come after in sequence, time, or space",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "FORCES",
+      "definition": "plural of force; strength or energy as an attribute",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FOREIGN",
+      "definition": "of, from, in, or characteristic of a country other than one's own",
+      "difficulty": 3,
+      "length": 7,
+      "category": "adjective"
+    },
+    {
+      "word": "FOREST",
+      "definition": "a large area dominated by trees",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FORGET",
+      "definition": "to fail to remember",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "FORMAL",
+      "definition": "done in accordance with convention or etiquette",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "FORMAT",
+      "definition": "the way in which something is arranged or set out",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FORMER",
+      "definition": "having previously been a particular thing",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "FORTH",
+      "definition": "out from a starting point and forward or into view",
+      "difficulty": 3,
+      "length": 5,
+      "category": "adverb"
+    },
+    {
+      "word": "FORWARD",
+      "definition": "toward the front; in the direction that one is facing",
+      "difficulty": 2,
+      "length": 7,
+      "category": "adverb"
+    },
+    {
+      "word": "FOUGHT",
+      "definition": "past tense of fight",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "FOURTH",
+      "definition": "constituting number four in a sequence",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "FRAMES",
+      "definition": "plural of frame; rigid structures that surround something",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FRANCE",
+      "definition": "a country in Western Europe",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FREELY",
+      "definition": "without restriction or interference",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "FRIEND",
+      "definition": "a person whom one knows and with whom one has a bond",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "FUTURE",
+      "definition": "the time yet to come",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "GALAXY",
+      "definition": "a system of millions or billions of stars",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "GARDEN",
+      "definition": "a piece of ground where plants are grown",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "GATHER",
+      "definition": "to come together; to bring things together",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "GENDER",
+      "definition": "the state of being male or female",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "GENTLE",
+      "definition": "having or showing a mild, kind, or tender temperament",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "GERMAN",
+      "definition": "a native or inhabitant of Germany",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "GLOBAL",
+      "definition": "relating to the whole world",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "GOLDEN",
+      "definition": "made of gold; having the color of gold",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "GROUND",
+      "definition": "the solid surface of the earth",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "GROUPS",
+      "definition": "plural of group; collections of people or things",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "GROWTH",
+      "definition": "the process of increasing in size",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "GUARDS",
+      "definition": "plural of guard; people who protect or watch over",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "GUESTS",
+      "definition": "plural of guest; people who are invited to visit",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "HANDED",
+      "definition": "past tense of hand; gave or passed something",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "HANDLE",
+      "definition": "to deal with or manage",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "HAPPEN",
+      "definition": "to take place; occur",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "HARDER",
+      "definition": "comparative of hard; more difficult",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "HARDLY",
+      "definition": "only just; almost not",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "HEADER",
+      "definition": "a person or thing that leads or guides",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "HEALTH",
+      "definition": "the state of being free from illness",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "HEIGHT",
+      "definition": "the measurement from base to top",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "HIDDEN",
+      "definition": "past participle of hide; concealed",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "HOLDER",
+      "definition": "a person who holds something",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "HONEST",
+      "definition": "free of deceit; truthful",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "HUMANS",
+      "definition": "plural of human; people",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "HUNGER",
+      "definition": "a feeling of discomfort from lack of food",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "HUNTED",
+      "definition": "past tense of hunt; pursued for food or sport",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "HURRY",
+      "definition": "to move or act with great haste",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "IDEALS",
+      "definition": "plural of ideal; perfect standards or principles",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "IGNORE",
+      "definition": "to refuse to take notice of",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "IMPACT",
+      "definition": "the action of one object coming forcibly into contact",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "IMPORT",
+      "definition": "to bring goods from a foreign country",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "INCOME",
+      "definition": "money received, especially on a regular basis",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "INDEED",
+      "definition": "used to emphasize a statement or response",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "INJURY",
+      "definition": "physical harm or damage to someone's body",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "INSIDE",
+      "definition": "the inner side or surface of something",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "INTEND",
+      "definition": "to have as a plan or purpose",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "INTENT",
+      "definition": "intention or purpose",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "INVITE",
+      "definition": "to make a polite or formal request to come",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ISLAND",
+      "definition": "a piece of land surrounded by water",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ITSELF",
+      "definition": "used as the object of a verb or preposition",
+      "difficulty": 2,
+      "length": 6,
+      "category": "pronoun"
+    },
+    {
+      "word": "JUDGES",
+      "definition": "plural of judge; people who decide legal cases",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "JUMPED",
+      "definition": "past tense of jump; moved suddenly upward",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "KILLED",
+      "definition": "past tense of kill; caused the death of",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "KILLER",
+      "definition": "a person or thing that kills",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "KINGDOM",
+      "definition": "a country, state, or territory ruled by a king",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "KISSED",
+      "definition": "past tense of kiss; touched with the lips",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "KNIGHT",
+      "definition": "a man granted an honorary title of knighthood",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "LABOUR",
+      "definition": "work, especially physical work",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "LACKED",
+      "definition": "past tense of lack; did not have",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "LAND",
+      "definition": "the part of the earth's surface that is not covered by water",
+      "difficulty": 1,
+      "length": 4,
+      "category": "noun"
+    },
+    {
+      "word": "LAUNCH",
+      "definition": "to send something into motion",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "LAWYER",
+      "definition": "a person who practices or studies law",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "LEADER",
+      "definition": "a person who leads or commands a group",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "LEAGUE",
+      "definition": "a collection of people, countries, or groups united",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "LEARNT",
+      "definition": "past tense of learn; acquired knowledge",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "LENGTH",
+      "definition": "the measurement or extent of something from end to end",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "LESSON",
+      "definition": "a period of learning or teaching",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "LETTER",
+      "definition": "a character representing one or more sounds",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "LIGHTS",
+      "definition": "plural of light; sources of illumination",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "LIKELY",
+      "definition": "such as well might happen or be true",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "LINKED",
+      "definition": "past tense of link; connected or associated",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "LISTEN",
+      "definition": "to give one's attention to a sound",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "LIVING",
+      "definition": "having life; alive",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "LOCATE",
+      "definition": "to discover the exact place or position of",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "LOCKED",
+      "definition": "past tense of lock; fastened with a lock",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "LONDON",
+      "definition": "the capital and largest city of the United Kingdom",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "LONGED",
+      "definition": "past tense of long; desired greatly",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "LOOKED",
+      "definition": "past tense of look; directed one's gaze toward",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "LOOSEN",
+      "definition": "to make less tight or firm",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "LORDED",
+      "definition": "past tense of lord; acted in a superior manner",
+      "difficulty": 4,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "LOST",
+      "definition": "past tense of lose; unable to find",
+      "difficulty": 1,
+      "length": 4,
+      "category": "verb"
+    },
+    {
+      "word": "MANNER",
+      "definition": "a way in which a thing is done or happens",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MARGIN",
+      "definition": "the edge or border of something",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MARKED",
+      "definition": "past tense of mark; indicated or designated",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "MARKET",
+      "definition": "a place where people regularly gather to buy and sell",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MASTER",
+      "definition": "a person who has control or authority",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MATTER",
+      "definition": "physical substance in general",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MATURE",
+      "definition": "fully developed physically",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "MEDIUM",
+      "definition": "an agency or means of doing something",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MEMBER",
+      "definition": "a person belonging to a particular group",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MEMORY",
+      "definition": "the faculty by which the mind stores information",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MENTAL",
+      "definition": "relating to the mind",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "MERELY",
+      "definition": "just; only",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "METHOD",
+      "definition": "a particular form of procedure for accomplishing something",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MIDDLE",
+      "definition": "the point or position at an equal distance from the sides",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MILLER",
+      "definition": "a person who operates a mill",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MINING",
+      "definition": "the process of extracting minerals from the earth",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MINUTE",
+      "definition": "a period of time equal to sixty seconds",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MIRROR",
+      "definition": "a surface that reflects light, showing images",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MISSED",
+      "definition": "past tense of miss; failed to hit or reach",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "MIXTURE",
+      "definition": "a substance made by mixing other substances together",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "MOBILE",
+      "definition": "able to move or be moved freely or easily",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "MODERN",
+      "definition": "relating to the present or recent times",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "MODEST",
+      "definition": "unassuming in the estimation of one's abilities",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "MODULE",
+      "definition": "a self-contained unit that is part of a larger system",
+      "difficulty": 4,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MOMENT",
+      "definition": "a very brief period of time",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MOTHER",
+      "definition": "a female parent",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MOTION",
+      "definition": "the action or process of moving or being moved",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MOVING",
+      "definition": "present participle of move; in motion",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "MURDER",
+      "definition": "the unlawful premeditated killing of one human being",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MUSCLE",
+      "definition": "a tissue consisting of cells capable of contraction",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MUSEUM",
+      "definition": "a building in which objects of historical interest are kept",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "MYSELF",
+      "definition": "used by a speaker to refer to himself or herself",
+      "difficulty": 2,
+      "length": 6,
+      "category": "pronoun"
+    },
+    {
+      "word": "NATIVE",
+      "definition": "associated with the place or circumstances of a person's birth",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "NATURE",
+      "definition": "the phenomena of the physical world collectively",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "NEARLY",
+      "definition": "almost but not quite; very close to being",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "NEEDED",
+      "definition": "past tense of need; required",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "NEURAL",
+      "definition": "relating to a nerve or the nervous system",
+      "difficulty": 4,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "NOTICE",
+      "definition": "the act of perceiving something with the mind",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "NOTION",
+      "definition": "a conception of or belief about something",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "NUMBER",
+      "definition": "an arithmetical value, expressed by a word or symbol",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "OBJECT",
+      "definition": "a material thing that can be seen and touched",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "OBTAIN",
+      "definition": "to get, acquire, or secure something",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "OFFICE",
+      "definition": "a room or building used for business purposes",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ONLINE",
+      "definition": "controlled by or connected to a computer",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "OPTION",
+      "definition": "a thing that is or may be chosen",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ORANGE",
+      "definition": "a large round juicy citrus fruit",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ORIGIN",
+      "definition": "the point or place where something begins",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "OUTPUT",
+      "definition": "the amount of something produced by a person or thing",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "OXFORD",
+      "definition": "a city in southern England, famous for its university",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PACKED",
+      "definition": "past tense of pack; filled tightly",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "PALACE",
+      "definition": "the official residence of a sovereign, president, or dignitary",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PARENT",
+      "definition": "a person's father or mother",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PARTLY",
+      "definition": "to some extent; not completely",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "PASSED",
+      "definition": "past tense of pass; moved in a specified direction",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "PATTERN",
+      "definition": "a repeated decorative design",
+      "difficulty": 3,
+      "length": 7,
+      "category": "noun"
+    },
+    {
+      "word": "PEACE",
+      "definition": "freedom from disturbance; tranquility",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "PERIOD",
+      "definition": "a length or portion of time",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PERMIT",
+      "definition": "to allow to be done or happen",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "PERSON",
+      "definition": "a human being regarded as an individual",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PHRASE",
+      "definition": "a small group of words standing together as a conceptual unit",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PICKED",
+      "definition": "past tense of pick; chose or selected",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "PIECE",
+      "definition": "a portion of an object or of material",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "PLACED",
+      "definition": "past tense of place; put in a particular position",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "PLANET",
+      "definition": "a celestial body moving in an elliptical orbit around a star",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PLAYER",
+      "definition": "a person taking part in a sport or game",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PLEASE",
+      "definition": "used in polite requests or questions",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "PLENTY",
+      "definition": "a large or sufficient amount or quantity",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PLURAL",
+      "definition": "the form of a word that refers to more than one",
+      "difficulty": 4,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "POCKET",
+      "definition": "a small bag sewn into or on clothing",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "POETIC",
+      "definition": "relating to or characteristic of poetry",
+      "difficulty": 4,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "POINTS",
+      "definition": "plural of point; sharp or tapered ends",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "POISON",
+      "definition": "a substance that can cause death or harm",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "POLICE",
+      "definition": "the civil force of a state, responsible for maintaining public order",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "POLICY",
+      "definition": "a course or principle of action adopted by a government",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PREFER",
+      "definition": "to like one thing or person better than another",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "PRETTY",
+      "definition": "attractive in a delicate way",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "PRIEST",
+      "definition": "an ordained minister of the Christian Church",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PRINCE",
+      "definition": "the son of a monarch",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PRISON",
+      "definition": "a building where people are kept as punishment for crimes",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PROFIT",
+      "definition": "a financial gain, especially the difference between cost and revenue",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "PROPER",
+      "definition": "truly what something is said or regarded to be",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "PROUD",
+      "definition": "feeling deep pleasure or satisfaction as a result of achievement",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "PROVE",
+      "definition": "to demonstrate the truth or existence of",
+      "difficulty": 3,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "PUBLIC",
+      "definition": "of or concerning the people as a whole",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "PURPLE",
+      "definition": "of a color intermediate between red and blue",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "PUSHED",
+      "definition": "past tense of push; exerted force on",
+      "difficulty": 1,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "QUEBEC",
+      "definition": "a province in eastern Canada",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "QUEENS",
+      "definition": "plural of queen; female monarchs",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "QUOTED",
+      "definition": "past tense of quote; repeated words from a source",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "RABBIT",
+      "definition": "a burrowing, gregarious, plant-eating mammal",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "RACIAL",
+      "definition": "relating to race or descent",
+      "difficulty": 4,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "RAISED",
+      "definition": "past tense of raise; lifted or increased",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "RANDOM",
+      "definition": "made, done, happening, or chosen without method or conscious decision",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "RARELY",
+      "definition": "not often; seldom",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "RATHER",
+      "definition": "to a certain or significant extent",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "RATING",
+      "definition": "a classification or ranking of someone or something",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "RATION",
+      "definition": "a fixed amount of a commodity officially allowed",
+      "difficulty": 4,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "RATIO",
+      "definition": "the quantitative relation between two amounts",
+      "difficulty": 4,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "REALLY",
+      "definition": "in actual fact, as opposed to what is said or imagined",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "REASON",
+      "definition": "a cause, explanation, or justification for an action",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "RECALL",
+      "definition": "to bring back to mind; remember",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "RECENT",
+      "definition": "having happened or begun a short time ago",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "RECORD",
+      "definition": "a thing constituting a piece of evidence about the past",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "REDUCE",
+      "definition": "to make smaller or less in amount, degree, or size",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "REFORM",
+      "definition": "to make changes in something in order to improve it",
+      "difficulty": 4,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "REFUSE",
+      "definition": "to indicate unwillingness to accept or do something",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "REGARD",
+      "definition": "to consider or think of in a specified way",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "REGION",
+      "definition": "an area or division, especially part of a country",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "RELATE",
+      "definition": "to make or show a connection between",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "RELIEF",
+      "definition": "a feeling of reassurance and relaxation",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "REMAIN",
+      "definition": "to continue to exist or be left after others have been removed",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "REMOTE",
+      "definition": "situated far from the main centers of population",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "REMOVE",
+      "definition": "to take away or eliminate",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "REPAIR",
+      "definition": "to restore something damaged to a good condition",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "REPEAT",
+      "definition": "to say or do again",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "REPLACE",
+      "definition": "to take the place of",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "REPLAY",
+      "definition": "to play again or repeat",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "REPORT",
+      "definition": "an account given of a particular matter",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "RESIST",
+      "definition": "to withstand the action or effect of",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "RESULT",
+      "definition": "a consequence, effect, or outcome of something",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "RETURN",
+      "definition": "to come or go back to a place or person",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "REVEAL",
+      "definition": "to make known to others",
+      "difficulty": 3,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "REVIEW",
+      "definition": "a formal assessment or examination of something",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "REWARD",
+      "definition": "a thing given in recognition of service or achievement",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "RIDING",
+      "definition": "present participle of ride; traveling on horseback",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "RISING",
+      "definition": "present participle of rise; increasing",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "ROBUST",
+      "definition": "strong and healthy; vigorous",
+      "difficulty": 4,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "ROCKET",
+      "definition": "a missile, spacecraft, or aircraft that obtains thrust",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "ROMANTIC",
+      "definition": "conducive to or characterized by the expression of love",
+      "difficulty": 4,
+      "length": 8,
+      "category": "adjective"
+    },
+    {
+      "word": "ROSE",
+      "definition": "past tense of rise; moved from a lower to higher position",
+      "difficulty": 1,
+      "length": 4,
+      "category": "verb"
+    },
+    {
+      "word": "ROUGH",
+      "definition": "having an uneven or irregular surface",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "ROUND",
+      "definition": "shaped like a circle or cylinder",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "ROUTE",
+      "definition": "a way or course taken in getting from a starting point to a destination",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "ROYAL",
+      "definition": "having the status of a king or queen",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "RURAL",
+      "definition": "in, relating to, or characteristic of the countryside",
+      "difficulty": 3,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "SCALE",
+      "definition": "each of the small, thin horny plates protecting the skin of fish and reptiles",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SCENE",
+      "definition": "the place where an incident in real life or fiction occurs",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SCOPE",
+      "definition": "the extent of the area or subject matter that something deals with",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SCORE",
+      "definition": "the number of points, goals, runs, etc., achieved in a game",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SENSE",
+      "definition": "a faculty by which the body perceives an external stimulus",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SERVE",
+      "definition": "to perform duties or services for another person",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SEVEN",
+      "definition": "the number equivalent to the sum of six and one",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SHADE",
+      "definition": "slight darkness caused by shelter from direct sunlight",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SHAKE",
+      "definition": "to move something up and down or from side to side",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SHALL",
+      "definition": "expressing future action; used as an auxiliary",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SHAPE",
+      "definition": "the external form or appearance of someone or something",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SHARE",
+      "definition": "to have a portion of something with another or others",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SHARP",
+      "definition": "having an edge or point that is able to cut or pierce",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "SHEET",
+      "definition": "a large rectangular piece of cotton or other fabric",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SHELF",
+      "definition": "a flat length of wood or rigid material, attached to a wall",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SHELL",
+      "definition": "the hard protective outer case of a mollusk or crustacean",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SHIFT",
+      "definition": "to move or cause to move from one place to another",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SHINE",
+      "definition": "to give out a bright light",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SHIRT",
+      "definition": "a garment for the upper body made of cotton or a similar fabric",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SHOCK",
+      "definition": "a sudden upsetting or surprising event or experience",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SHOOT",
+      "definition": "to discharge a projectile from a weapon",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SHORT",
+      "definition": "measuring a small distance from end to end",
+      "difficulty": 1,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "SHOWN",
+      "definition": "past participle of show; displayed or revealed",
+      "difficulty": 1,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SIDE",
+      "definition": "a position to the left or right of an object",
+      "difficulty": 1,
+      "length": 4,
+      "category": "noun"
+    },
+    {
+      "word": "SIGHT",
+      "definition": "the faculty or power of seeing",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SILLY",
+      "definition": "having or showing a lack of common sense",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "SIMPLE",
+      "definition": "easily understood or done; presenting no difficulty",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "SINGLE",
+      "definition": "only one; not one of several",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "SISTER",
+      "definition": "a woman or girl in relation to other daughters of her parents",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "SIXTH",
+      "definition": "constituting number six in a sequence",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "SIZED",
+      "definition": "past tense of size; adjusted to a particular size",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SKILL",
+      "definition": "the ability to do something well",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SLEEP",
+      "definition": "a condition of body and mind in which the nervous system is inactive",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SLIDE",
+      "definition": "to move smoothly along a surface",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SMALL",
+      "definition": "of a size that is less than normal or usual",
+      "difficulty": 1,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "SMART",
+      "definition": "having or showing quick-witted intelligence",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "SMILE",
+      "definition": "a pleased, kind, or amused facial expression",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SMITH",
+      "definition": "a worker in metal",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SMOKE",
+      "definition": "a visible suspension of carbon or other particles in air",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SNAKE",
+      "definition": "a long limbless reptile",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SOBER",
+      "definition": "not drunk; temperate or serious",
+      "difficulty": 3,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "SOLID",
+      "definition": "firm and stable in shape; not liquid or fluid",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "SOLVE",
+      "definition": "to find an answer to, explanation for, or means of dealing with",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SORRY",
+      "definition": "feeling distress, especially through sympathy with someone else's misfortune",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "SOUND",
+      "definition": "vibrations that travel through the air or another medium",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SOUTH",
+      "definition": "the direction towards the point of the horizon 90° clockwise from east",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SPACE",
+      "definition": "a continuous area or expanse that is free, available, or unoccupied",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SPARE",
+      "definition": "additional to what is required for ordinary use",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "SPEAK",
+      "definition": "to say words in order to convey information or to express ideas",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SPEED",
+      "definition": "rapidity of movement or action",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SPEND",
+      "definition": "to pay out money in buying or hiring goods or services",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SPENT",
+      "definition": "past tense of spend; used up or exhausted",
+      "difficulty": 1,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SPLIT",
+      "definition": "to divide or separate into parts",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SPOKE",
+      "definition": "past tense of speak; said words",
+      "difficulty": 1,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "SPORT",
+      "definition": "an activity involving physical exertion and skill",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SPOUSE",
+      "definition": "a person's partner in marriage",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "SPREAD",
+      "definition": "to open out so as to extend over a larger area",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "SPRING",
+      "definition": "the season after winter and before summer",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "SQUARE",
+      "definition": "a plane figure with four equal straight sides and four right angles",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "STABLE",
+      "definition": "not likely to change or fail; firmly established",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "STATED",
+      "definition": "past tense of state; expressed in words",
+      "difficulty": 2,
+      "length": 6,
+      "category": "verb"
+    },
+    {
+      "word": "STATIC",
+      "definition": "lacking in movement, action, or change",
+      "difficulty": 4,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "STATUS",
+      "definition": "the relative social, professional, or other standing of someone",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "STEADY",
+      "definition": "firmly fixed, supported, or balanced; not shaking or moving",
+      "difficulty": 2,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "STEELE",
+      "definition": "a type of metal alloy",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "STEEP",
+      "definition": "having a sharp inclination; almost vertical",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "STICK",
+      "definition": "a thin piece of wood that has fallen or been cut from a tree",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "STILL",
+      "definition": "not moving or making a sound",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adverb"
+    },
+    {
+      "word": "STOCK",
+      "definition": "the goods or merchandise kept on the premises of a shop",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "STONE",
+      "definition": "hard solid non-metallic mineral matter of which rock is made",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "STOOD",
+      "definition": "past tense of stand; was in an upright position",
+      "difficulty": 1,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "STORE",
+      "definition": "a retail establishment selling goods to the public",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "STORM",
+      "definition": "a violent disturbance of the atmosphere with strong winds",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "STORY",
+      "definition": "an account of imaginary or real people and events",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "STRIP",
+      "definition": "to remove clothing or covering from",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "STUCK",
+      "definition": "past tense of stick; unable to move or get away",
+      "difficulty": 1,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "STUDY",
+      "definition": "the devotion of time and attention to acquiring knowledge",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "STUFF",
+      "definition": "matter, material, articles, or activities of a specified kind",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "STYLE",
+      "definition": "a particular way in which something is done",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SUGAR",
+      "definition": "a sweet crystalline substance obtained from various plants",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SUITE",
+      "definition": "a set of rooms designated for occupancy by one person",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "SUPER",
+      "definition": "excellent; first-rate",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "SWEET",
+      "definition": "having the pleasant taste characteristic of sugar",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "TABLE",
+      "definition": "a piece of furniture with a flat top and one or more legs",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TAKEN",
+      "definition": "past participle of take; carried or moved by someone",
+      "difficulty": 1,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "TASTE",
+      "definition": "the sensation of flavor perceived in the mouth",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TAXES",
+      "definition": "plural of tax; sums of money demanded by a government",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TEACH",
+      "definition": "to impart knowledge to or instruct someone",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "TEETH",
+      "definition": "plural of tooth; hard white structures in the mouth",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TERRY",
+      "definition": "a fabric with a surface of loops",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TEXAS",
+      "definition": "a state in the southern United States",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "THANK",
+      "definition": "to express gratitude to someone",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "THEFT",
+      "definition": "the action or crime of stealing",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "THEIR",
+      "definition": "belonging to or associated with the people or things previously mentioned",
+      "difficulty": 1,
+      "length": 5,
+      "category": "determiner"
+    },
+    {
+      "word": "THEME",
+      "definition": "the subject of a talk, piece of writing, or exhibition",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "THERE",
+      "definition": "in, at, or to that place or position",
+      "difficulty": 1,
+      "length": 5,
+      "category": "adverb"
+    },
+    {
+      "word": "THESE",
+      "definition": "plural of this; referring to people or things nearby",
+      "difficulty": 1,
+      "length": 5,
+      "category": "determiner"
+    },
+    {
+      "word": "THICK",
+      "definition": "having relatively great extent from one surface to the opposite",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "THING",
+      "definition": "an object that one need not, cannot, or does not name specifically",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "THINK",
+      "definition": "to have a particular opinion, belief, or idea about someone or something",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "THIRD",
+      "definition": "constituting number three in a sequence",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "THOSE",
+      "definition": "plural of that; referring to people or things distant",
+      "difficulty": 1,
+      "length": 5,
+      "category": "determiner"
+    },
+    {
+      "word": "THREE",
+      "definition": "the number equivalent to the sum of one and two",
+      "difficulty": 1,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "THREW",
+      "definition": "past tense of throw; propelled something with force",
+      "difficulty": 1,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "THROW",
+      "definition": "to propel something with force through the air",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "THUMB",
+      "definition": "the short, thick first digit of the human hand",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TIGER",
+      "definition": "a large carnivorous feline mammal with a striped coat",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TIGHT",
+      "definition": "fixed, fastened, or closed firmly; hard to move",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "TIRED",
+      "definition": "in need of sleep or rest; weary",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "TITLE",
+      "definition": "the name of a book, composition, or other artistic work",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TODAY",
+      "definition": "on or in the course of this present day",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adverb"
+    },
+    {
+      "word": "TOKEN",
+      "definition": "a thing serving as a visible or tangible representation",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TOPIC",
+      "definition": "a matter dealt with in a text, conversation, or discussion",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TOTAL",
+      "definition": "comprising the whole number or amount",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "TOUCH",
+      "definition": "to come into or be in contact with",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "TOUGH",
+      "definition": "strong enough to withstand adverse conditions",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "TOWER",
+      "definition": "a tall, narrow building, either free-standing or forming part of another building",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TOWN",
+      "definition": "an urban area that has a name, defined boundaries, and local government",
+      "difficulty": 2,
+      "length": 4,
+      "category": "noun"
+    },
+    {
+      "word": "TRACE",
+      "definition": "to find or discover by investigation",
+      "difficulty": 3,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "TRACK",
+      "definition": "a rough path or road, typically one beaten by use rather than constructed",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TRADE",
+      "definition": "the action of buying and selling goods and services",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TRAIL",
+      "definition": "a path or track through a countryside",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TRAIN",
+      "definition": "a series of railroad cars moved as a unit by a locomotive",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TRAIT",
+      "definition": "a distinguishing quality or characteristic",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TREAT",
+      "definition": "to behave toward or deal with in a certain way",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "TREND",
+      "definition": "a general direction in which something is developing or changing",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TRIAL",
+      "definition": "a formal examination of evidence by a judge",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TRIBE",
+      "definition": "a social division in a traditional society",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TRICK",
+      "definition": "a cunning or skillful act or scheme intended to deceive",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TRIED",
+      "definition": "past tense of try; made an attempt or effort",
+      "difficulty": 1,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "TRIES",
+      "definition": "third person singular of try; attempts",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "TRUCK",
+      "definition": "a large, heavy motor vehicle for transporting goods",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TRULY",
+      "definition": "in a truthful way; honestly",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adverb"
+    },
+    {
+      "word": "TRUNK",
+      "definition": "the main stem of a tree",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TRUST",
+      "definition": "firm belief in the reliability, truth, or ability of someone",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TRUTH",
+      "definition": "the quality or state of being true",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "TWICE",
+      "definition": "two times; on two occasions",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adverb"
+    },
+    {
+      "word": "TWIST",
+      "definition": "to form into a bent, curling, or distorted shape",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "TYLER",
+      "definition": "a maker of tiles",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "UNCLE",
+      "definition": "the brother of one's father or mother",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "UNDER",
+      "definition": "extending or directly below",
+      "difficulty": 2,
+      "length": 5,
+      "category": "preposition"
+    },
+    {
+      "word": "UNDUE",
+      "definition": "excessive or inappropriate",
+      "difficulty": 3,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "UNION",
+      "definition": "the action of joining together or the state of being joined",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "UNITY",
+      "definition": "the state of being united or joined as a whole",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "UNTIL",
+      "definition": "up to the point in time or the event mentioned",
+      "difficulty": 2,
+      "length": 5,
+      "category": "preposition"
+    },
+    {
+      "word": "UPPER",
+      "definition": "situated above another part",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "UPSET",
+      "definition": "to make someone unhappy, disappointed, or worried",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "URBAN",
+      "definition": "relating to or characteristic of a town or city",
+      "difficulty": 3,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "USAGE",
+      "definition": "the way in which a word or phrase is normally and correctly used",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "USUAL",
+      "definition": "happening or done most of the time",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "VALUE",
+      "definition": "the regard that something is held to deserve",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "VIDEO",
+      "definition": "the recording, reproducing, or broadcasting of moving visual images",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "VIRUS",
+      "definition": "an infective agent that typically consists of a nucleic acid",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "VISIT",
+      "definition": "to go to see and spend time with someone",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "VISUAL",
+      "definition": "relating to seeing or sight",
+      "difficulty": 3,
+      "length": 6,
+      "category": "adjective"
+    },
+    {
+      "word": "VITAL",
+      "definition": "absolutely necessary or important",
+      "difficulty": 3,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "VOCAL",
+      "definition": "relating to the human voice",
+      "difficulty": 3,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "VOICE",
+      "definition": "the sound produced in a person's larynx and uttered through the mouth",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "WASTE",
+      "definition": "to use or expend carelessly or to no purpose",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "WATCH",
+      "definition": "to look at or observe attentively over a period of time",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "WATER",
+      "definition": "a transparent, odorless, tasteless liquid essential for life",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "WAVES",
+      "definition": "plural of wave; ridges of water caused by the wind",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "WEALTH",
+      "definition": "an abundance of valuable resources or possessions",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "WEAPON",
+      "definition": "a thing designed or used for inflicting bodily harm or physical damage",
+      "difficulty": 3,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "WEIGHT",
+      "definition": "a body's relative mass or the quantity of matter contained by it",
+      "difficulty": 2,
+      "length": 6,
+      "category": "noun"
+    },
+    {
+      "word": "WHALE",
+      "definition": "a very large marine mammal",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "WHEAT",
+      "definition": "a cereal grain which is the most important crop in temperate countries",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "WHEEL",
+      "definition": "a circular object that revolves on an axle",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "WHERE",
+      "definition": "in or to what place or position",
+      "difficulty": 1,
+      "length": 5,
+      "category": "adverb"
+    },
+    {
+      "word": "WHICH",
+      "definition": "asking for information specifying one or more people or things",
+      "difficulty": 1,
+      "length": 5,
+      "category": "pronoun"
+    },
+    {
+      "word": "WHILE",
+      "definition": "during the time that; at the same time as",
+      "difficulty": 2,
+      "length": 5,
+      "category": "conjunction"
+    },
+    {
+      "word": "WHITE",
+      "definition": "of the color of milk or fresh snow",
+      "difficulty": 1,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "WHOLE",
+      "definition": "all of; entire",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "WHOSE",
+      "definition": "belonging to which person",
+      "difficulty": 2,
+      "length": 5,
+      "category": "pronoun"
+    },
+    {
+      "word": "WOMAN",
+      "definition": "an adult human female",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "WOMEN",
+      "definition": "plural of woman; adult human females",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "WORLD",
+      "definition": "the earth, together with all of its countries and peoples",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "WORRY",
+      "definition": "to give way to anxiety or unease",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "WORSE",
+      "definition": "of poorer quality or lower standard",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "WORST",
+      "definition": "of the poorest quality or lowest standard",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "WORTH",
+      "definition": "equivalent in value to the sum or item specified",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "WOULD",
+      "definition": "expressing the conditional mood",
+      "difficulty": 1,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "WRITE",
+      "definition": "to mark letters, words, or other symbols on a surface",
+      "difficulty": 2,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "WRONG",
+      "definition": "not correct or true; incorrect",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "WROTE",
+      "definition": "past tense of write; marked letters on a surface",
+      "difficulty": 1,
+      "length": 5,
+      "category": "verb"
+    },
+    {
+      "word": "YOUNG",
+      "definition": "having lived or existed for only a short time",
+      "difficulty": 2,
+      "length": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "YOUTH",
+      "definition": "the period between childhood and adult age",
+      "difficulty": 2,
+      "length": 5,
+      "category": "noun"
+    },
+    {
+      "word": "ZERO",
+      "definition": "no quantity or number; naught",
+      "difficulty": 2,
+      "length": 4,
+      "category": "noun"
+    },
+    {
+      "word": "ZONES",
+      "definition": "plural of zone; areas or regions",
+      "difficulty": 3,
+      "length": 5,
+      "category": "noun"
+    }
+  ]
+}

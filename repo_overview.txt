@@ -1,0 +1,774 @@
+HANGMAN.AI REPOSITORY OVERVIEW
+==============================
+
+Purpose
+-------
+This document is a source-based inventory and architecture handoff for an
+external audit. It describes the files found in the working directory and the
+behavior visible in the source; it is not itself a security assessment.
+
+The application is a browser-based word-guessing game built with React and
+Vite. It combines Wordle-like full-word guesses and per-letter color feedback
+with a Hangman-themed character, progressive levels, and AI-generated hints
+and dialogue. The current AI integration is OpenRouter (not the Groq provider
+mentioned in older project text).
+
+Quick facts
+-----------
+- Frontend: React 18, React Router, Vite, Tailwind CSS, and regular CSS plus
+  JavaScript inline styles.
+- Game engine: client-side JavaScript class backed by a bundled JSON word list.
+- AI calls: OpenRouter chat completions, optionally via a small Node HTTP proxy.
+- Persistence: no game/session persistence is implemented in the active hook.
+- Automated tests: package.json defines no test or lint command. The proxy
+  script is a manual live-request check, not an automated test suite.
+- npm commands: `npm run dev`, `npm run build`, `npm run preview`, and
+  `npm run proxy`.
+- Vite development server defaults to port 3000. The standalone proxy defaults
+  to port 4000.
+
+Repository map
+--------------
+
+Repository root
+|-- .env                         Local environment configuration (secret-bearing)
+|-- .gitignore                   Ignore rules
+|-- CHANGES_REFERENCE.md         Historical visual/data-flow notes
+|-- DICTIONARY_UPGRADE.md        Historical dictionary architecture notes
+|-- README.md                    Project description and development notes
+|-- index.html                   Vite HTML shell
+|-- instructions.md              AI-assisted development guidance
+|-- package.json                 Scripts and dependency declarations
+|-- package-lock.json            npm dependency lockfile
+|-- postcss.config.js            PostCSS plugins
+|-- repo_overview.txt            This audit-oriented repository inventory
+|-- server.js                    Optional OpenRouter HTTP proxy
+|-- tailwind.config.js           Tailwind content/theme configuration
+|-- vite.config.js               Vite and React plugin configuration
+|-- node_modules/                 Installed npm dependencies (ignored)
+|-- dist/                        Generated production build output (ignored)
+|-- logs/
+|   `-- latest_changes.md        Most recent change summary
+|-- scripts/
+|   `-- testProxy.js             Manual proxy request script
+`-- src/
+    |-- App.jsx                  Route composition
+    |-- index.css                Global CSS and responsive game layout
+    |-- main.jsx                 React browser entry point
+    |-- components/              Reusable interface components
+    |-- config/                  Game rules and balancing configuration
+    |-- data/                    Bundled word dictionary
+    |-- game/                    Framework-independent game and word selection
+    |-- hooks/                   React state integration
+    |-- pages/                   Route-level page components
+    |-- services/                AI, dialogue, and hint context logic
+    |-- theme/                   Shared UI design tokens
+    `-- utils/                   Present but currently empty
+
+Startup and request flow
+------------------------
+1. Vite serves index.html, which mounts src/main.jsx. main.jsx imports global
+   CSS and renders App inside React.StrictMode.
+2. App.jsx maps `/`, `/game`, `/how-to-play`, and `/credits` to page components.
+3. Game.jsx calls useWordle(). The hook creates a Wordle instance; Wordle picks
+   a word from dictionary.json through wordSelector.js.
+4. A submitted full-word guess passes from GuessInput through useWordle to
+   Wordle.submitGuess(). The engine validates it, records it, computes
+   green/yellow/gray feedback, and determines win/loss.
+5. Game.jsx displays state using the game board, status, and Hangman
+   components. Incorrect guesses advance the visual character.
+6. A hint request builds context in hintService.js, then aiService.js sends a
+   chat-completions request through openrouterClient.js. Dialogue requests
+   follow a similar path through dialogueService.js.
+7. In development, openrouterClient.js selects the relative path
+   `/api/openrouter`; server.js exposes that endpoint on port 4000. vite.config.js
+   does not currently define a proxy from port 3000 to port 4000, so the
+   development integration requires an additional forwarding arrangement or
+   configuration for the relative frontend request to reach server.js.
+
+Detailed file and folder inventory
+==================================
+
+ROOT FILES
+----------
+
+.env
+  Local environment-variable file. server.js has a small loader for this file
+  and checks OPENROUTER_API_KEY or VITE_OPENROUTER_API_KEY. The frontend reads
+  VITE_OPENROUTER_API_KEY, VITE_OPENROUTER_MODEL, and VITE_USE_PROXY through
+  Vite's import.meta.env interface. The file is excluded by .gitignore. Do not
+  put its values in audit reports or commit them; a VITE_-prefixed value is
+  generally exposed to client-side code if used in a client bundle.
+
+.gitignore
+  Excludes node_modules/, dist/, .env, .env.local, *.log, and .DS_Store.
+  This means the generated build directory and local secrets are not intended
+  as source-controlled inputs.
+
+CHANGES_REFERENCE.md
+  Historical visual guide describing the transition from a simple word list to
+  dictionary-backed level selection and hint context. It includes illustrative
+  diagrams and code examples; treat it as historical context, not authoritative
+  documentation of every current component or behavior.
+
+DICTIONARY_UPGRADE.md
+  Historical architecture note for the dictionary/level upgrade. It explains
+  the intended dictionary record shape, filtering, and hint-context pipeline.
+  Some claims and examples are aspirational or stale (for example, claims
+  about no repeated words are not enforced by wordSelector.js).
+
+README.md
+  User-facing project introduction, feature summary, approximate source tree,
+  gameplay explanation, AI description, logging policy, and basic setup. Its
+  feature narrative is not fully aligned with the implementation: for example,
+  it describes sequential letter input and mentions Groq, while the current
+  input accepts a complete word and the AI client targets OpenRouter.
+
+index.html
+  Vite HTML document shell. Sets the page language, viewport, and title,
+  declares the `#root` mount element, and loads `/src/main.jsx` as a module.
+
+instructions.md
+  Repository-specific instructions for AI-assisted development. It discusses
+  intended architecture, game rules, AI behavior, testing, and documentation.
+  Its Groq references and prescribed project structure are guidance/history,
+  not proof that the current source implements those suggestions.
+
+package.json
+  Declares an ES-module Node project named `wordle-game`. Scripts:
+  - `dev`: starts Vite.
+  - `proxy`: runs server.js with Node.
+  - `build`: creates a Vite production build.
+  - `preview`: serves the production build for local preview.
+  Runtime packages include React, React DOM, React Router, en-dictionary, and
+  wordnet. Development packages include Vite, its React plugin, Tailwind,
+  PostCSS, and Autoprefixer. No test, lint, or type-check script is declared.
+
+package-lock.json
+  npm-generated lockfile pinning the resolved dependency tree for reproducible
+  installs. Update it with package.json when changing npm dependencies.
+
+postcss.config.js
+  Registers Tailwind CSS and Autoprefixer as PostCSS plugins. Vite uses this
+  while transforming the imported CSS.
+
+repo_overview.txt
+  This document. Intended as an audit handoff and maintained separately from
+  the user-facing README.
+
+server.js
+  Small built-in Node HTTP server for forwarding POST requests from
+  `/api/openrouter` to `https://openrouter.ai/v1/chat/completions`.
+  It reads an API key from the process environment or, if absent, attempts to
+  parse a local `.env`; it accepts JSON request bodies and passes them upstream.
+  The default listen port is 4000 (overridable with PORT). It handles OPTIONS
+  and returns CORS headers with wildcard origin. It uses Node's http, fs, URL,
+  and global fetch APIs; there is no Express dependency. The code does not
+  implement authentication, request-size limits, per-client quotas, or
+  application-level request schema validation.
+
+tailwind.config.js
+  Scans src JavaScript/JSX and index.html for Tailwind class names. Adds a
+  fadeIn animation and keyframes; no Tailwind plugins are registered.
+
+vite.config.js
+  Enables the React plugin and sets the development server to port 3000 with
+  automatic browser opening. No `/api/openrouter` development proxy is defined
+  here.
+
+dist/
+  Generated Vite production output currently present in the working directory:
+  - index.html: transformed entry HTML for the built app.
+  - assets/index-1de66777.js: bundled/minified JavaScript application asset.
+  - assets/index-2643de9e.css: bundled CSS asset.
+  The exact hash names change between builds. dist/ is ignored by .gitignore;
+  these files are build artifacts, not the source of truth.
+
+node_modules/
+  Installed third-party packages resolved from package.json and
+  package-lock.json. This is dependency output, not project-authored source;
+  it is excluded from the file-by-file inventory and ignored by .gitignore.
+
+logs/
+-----
+
+logs/latest_changes.md
+  Repository change log. README.md says it must be overwritten for every file
+  modification and must state what changed, why, and impact. It is a single
+  latest-update summary rather than a complete append-only history.
+
+scripts/
+--------
+
+scripts/testProxy.js
+  Standalone Node script that POSTs a small chat-completion request to
+  `http://localhost:4000/api/openrouter`, then prints the HTTP status and
+  response body. It requires the proxy to be running and a working OpenRouter
+  configuration/network connection. It is not a test runner and does not
+  assert expected response contents.
+
+Dependency and build boundary
+-----------------------------
+The package manifest separates direct runtime dependencies from build tooling:
+
+- Runtime dependencies declared: React `^18.2.0`, React DOM `^18.2.0`,
+  React Router DOM `^7.13.2`, `en-dictionary` `^2.0.3`, and `wordnet` `^2.0.0`.
+- Development dependencies declared: `@vitejs/plugin-react` `^4.0.0`,
+  Autoprefixer `^10.4.14`, PostCSS `^8.4.24`, Tailwind CSS `^3.3.0`, and
+  Vite `^4.3.9`.
+- The source imports React, React DOM, React Router, and the local game/data
+  modules. The inspected source does not import en-dictionary or wordnet; they
+  are declared dependencies but not part of the observed active code path.
+- package-lock.json uses lockfile format version 3. package.json ranges are
+  allowable version ranges, not a statement that the newest matching package
+  is installed; package-lock.json records exact package resolutions.
+- `npm run build` invokes Vite and emits static client assets under dist/.
+  There is no package script to launch a production API server or deploy the
+  frontend. The proxy is a separate process and is not bundled into the static
+  frontend.
+- This project has no declared database, authentication provider, user account
+  system, analytics SDK, or application backend framework.
+
+src/
+----
+
+src/App.jsx
+  Root application component and React Router setup. Routes `/` to Home,
+  `/game` to Game, `/how-to-play` to HowToPlay, and `/credits` to Credits.
+
+src/main.jsx
+  Browser bootstrap. Imports React, ReactDOM, App, and index.css, then mounts
+  App into the HTML `#root` element inside React.StrictMode.
+
+src/index.css
+  Global Tailwind directives, box sizing, full-page sizing, system font stack,
+  dark background, scrollbar appearance, and CSS classes for the responsive
+  two-column `.game-layout` and its panels. Breakpoints stack the game panels
+  vertically on smaller screens. It also defines reusable panel/button/tile
+  classes and basic text color utilities. Several components instead use
+  inline styles from uiTheme.js.
+
+src/components/
+----------------
+Reusable interface pieces used primarily by the Game page.
+
+src/components/AIDialogueBox.jsx
+  A themed slide-up dialogue/modal component with backdrop, choice buttons,
+  close button, AI message area, optional children, and inline animation.
+  Its implementation overlaps substantially with DialogChoiceBox.jsx; verify
+  both exports/imports before consolidating or changing either component.
+
+src/components/ChatMessage.jsx
+  Displays one user or assistant chat bubble, aligned and styled by role.
+  When isLoading is true, displays a three-dot animated loading indicator.
+
+src/components/DialogChoiceBox.jsx
+  Dialogue overlay used by Game.jsx. Renders backdrop and choice actions while
+  open, a bottom-positioned dialogue panel, AI message, optional child content,
+  and a close button. Uses inline styles and tokens from uiTheme.js.
+
+src/components/GameBoard.jsx
+  Renders each submitted full-word guess as a row of letter tiles, applies
+  correct/misplaced/unused feedback colors, and fills remaining attempts with
+  empty rows. Receives guesses, feedbackHistory, wordLength, and maxAttempts.
+
+src/components/GameLayout.jsx
+  Reusable split-panel layout component accepting gamePanel and hangmanPanel.
+  It also exports a CSS-rules string for a responsive layout. Current Game.jsx
+  builds the `.game-layout` markup directly and relies on index.css instead;
+  this component/export is not used by the active page.
+
+src/components/GameStatus.jsx
+  Displays the current game message when provided and colors it according to
+  whether the game was won. Controls such as retry/next level are owned by
+  Game.jsx, not this component.
+
+src/components/GuessInput.jsx
+  Controlled text input for one complete guess. Converts input to uppercase,
+  permits A-Z only, limits entry to the current word length, checks the length
+  before submission, and clears the field after a successful submit. It does
+  not implement the keyboard-by-letter/virtual-keyboard behavior described in
+  some older documentation.
+
+src/components/HangmanAI.jsx
+  Shows an SVG stick figure with progressive vertical movement and damage
+  states based on wrongGuesses, plus status text and an attempts progress bar.
+  Clicking opens the dialogue while the game is active. The listed hazards in
+  the source are mostly labels/data for themed stages; the rendered SVG uses a
+  generic surface rather than a distinct visual for each hazard.
+
+src/components/HazardDisplay.jsx
+  Placeholder hazard panel with a warning icon and label. It accepts level and
+  isActive props but currently renders a generic placeholder; it is not used
+  in the active Game page composition.
+
+src/components/HintChat.jsx
+  Slide-in chat panel that renders ChatMessage entries, loading animation, and
+  auto-scrolls to the latest message. It presents an informational footer but
+  has no user text input. Game.jsx currently uses DialogChoiceBox for its hint
+  dialogue rather than rendering this component.
+
+src/config/
+-------------
+
+src/config/gameConfig.js
+  Central constants for playing/win/lose statuses, feedback values, default
+  level/attempts, level configuration for levels 1-12, difficulty labels, and
+  hint limit/cooldown settings. Levels specify word length, maximum dictionary
+  difficulty, attempt limit, and display name. The active hook uses hint limit
+  and cooldown here, while its returned hintsRemaining value separately uses a
+  hard-coded limit of 3.
+
+src/data/
+----------
+
+src/data/dictionary.json
+  Bundled JSON dictionary containing 861 word records. Top-level property is
+  `words`; each entry contains word, definition, difficulty, length, and
+  category. Word records provide the candidate answer pool and definitions
+  shown to the player and passed to AI hint generation. Because this JSON is
+  imported into the frontend bundle, the candidate answers and metadata are
+  client-accessible.
+
+src/game/
+-----------
+
+src/game/wordle.js
+  Wordle class, the core game engine. Constructor selects a word for the level
+  and stores its definition, difficulty, length, guesses, and status.
+  `isValidGuess()` normalizes and checks length, A-Z characters, and duplicate
+  guesses. `submitGuess()` records valid guesses, generates per-position
+  feedback, and updates win/loss status using level attempt settings.
+  `generateFeedback()` marks exact-position matches first, then misplaced
+  letters without reusing already matched answer positions. `getState()`
+  returns the current game state; `reset()` selects a new word at the same
+  level; `nextLevel()` increments level and resets; `getHintData()` prepares
+  answer and progress data for hint context creation. This engine runs in the
+  browser and `getState()` includes the answer word.
+
+src/game/wordList.js
+  Legacy large static `WORD_LISTS.easy` array and `getRandomWord()` helper.
+  The active game engine imports wordSelector.js instead; this file is not
+  part of the active word-selection path.
+
+src/game/wordSelector.js
+  Imports dictionary.json, maps level numbers to word-length/difficulty
+  filters, selects a random matching candidate, and returns its word and
+  metadata. `getWordsForLevel()` returns a reduced list for testing/admin use;
+  `getDifficultyInfo()` reports filtering information. There is no tracking to
+  prevent repeats. For out-of-range levels it uses a broad fallback filter,
+  while game attempt settings separately fall back to level 1 in wordle.js.
+
+src/hooks/
+------------
+
+src/hooks/useWordle.js
+  React hook connecting the Wordle engine to component state. Exposes the
+  current game data, feedback history, status/message, hint counters, chat
+  state, and methods for submitting guesses, resetting, advancing levels,
+  toggling chat, and requesting hints. It enforces hint availability through
+  hintService.js and calls generateHint() for chat-based hints. Game state is
+  held in React state only; there is no localStorage/session persistence.
+
+src/pages/
+------------
+
+src/pages/Credits.jsx
+  Credits and technology/features page with links to learning resources and a
+  button back into the game. Some displayed claims (including provider/model,
+  localStorage persistence, and exact library versions) may not match the
+  current source or package.json and should be verified before being cited.
+
+src/pages/Game.jsx
+  Main game screen and UI coordinator. Creates useWordle(1), presents level,
+  attempts, hints, definition, game board, status, input, and retry/next-level
+  controls. Composes HangmanAI and DialogChoiceBox. The character dialogue
+  offers an AI persona response or a hint; dialogueService handles persona
+  responses and useWordle handles hints. The active layout uses CSS classes
+  from index.css. Some imports/state/props in this file are unused or redundant
+  (for example, the imported GameLayout and difficulty value).
+
+src/pages/Home.jsx
+  Landing page containing the title, short description, Play Game, How to Play,
+  and Credits navigation buttons, feature highlights, and footer copy. Uses
+  uiTheme.js for most inline styles.
+
+src/pages/HowToPlay.jsx
+  Gameplay instruction page covering word guesses, tile feedback, hints, level
+  ranges, hazard theme, and strategy, with navigation back home or to the game.
+  Some descriptions are broader than current code (for example, distinct
+  hazard artwork or generated dialogue behavior); treat implementation as the
+  source of truth.
+
+src/services/
+----------------
+
+src/services/aiService.js
+  Builds a system/user prompt and calls openrouterRequest() to get a hint.
+  Chooses the model from VITE_OPENROUTER_MODEL or defaults to gpt-4o-mini.
+  It cleans the first response line and performs basic text/placeholder checks,
+  returning `{ success, hint, ... }` or a user-facing error shape. The prompt
+  includes the target word and definition because this logic executes in the
+  client; instructions not to reveal the answer are prompt guidance, not a
+  guarantee or a semantic output filter. The service contains Groq-era comments
+  and a difficulty helper; comments/unused helper behavior do not change the
+  actual OpenRouter endpoint/model configuration.
+
+src/services/dialogueService.js
+  Creates short persona-based dialogue requests using OpenRouter. Supports
+  optional topics, persona ID, tone, temperature, and token limit; randomly
+  selects among four personas if no valid persona is specified. Returns
+  response text and metadata, or a failure result. Used for the character's
+  non-hint dialogue.
+
+src/services/hintService.js
+  Converts game data into a context object for the hint service, including
+  target word, definition, difficulty label, word length, guesses, level, and
+  game difficulty. Also exports a prompt formatter and checkHintAvailability()
+  using gameConfig hint limit/cooldown. The remaining-attempt count is
+  hard-coded as six minus guesses, so it does not reflect levels configured
+  with a different attempt count. A mock hint implementation is marked
+  deprecated.
+
+src/services/openrouterClient.js
+  Shared fetch client for OpenRouter's chat-completions API. Uses
+  `/api/openrouter` when VITE_USE_PROXY is true or when Vite is in development;
+  otherwise it calls the OpenRouter URL directly and expects
+  VITE_OPENROUTER_API_KEY. Parses JSON responses and throws on HTTP errors.
+  Direct client calls can expose a VITE_-prefixed key in the built bundle;
+  proxy mode is intended to keep the key on the server. Actual proxy reachability
+  depends on a route from the frontend origin to the proxy server.
+
+src/theme/
+------------
+
+src/theme/uiTheme.js
+  Central design token object for palette, spacing, border radius, typography,
+  shadows, transitions, component examples, and breakpoints. Components import
+  these values to style UI consistently. Also exports createStyles(), a shallow
+  merge helper, and uiTheme as the default export.
+
+src/utils/
+------------
+
+Currently empty. The folder exists in the repository structure but contains no
+utility implementation files.
+
+Runtime behavior, state, and data contracts
+============================================
+
+Application routes and page responsibilities
+---------------------------------------------
+- `/` renders Home. Navigation buttons use React Router's useNavigate() to
+  reach the game, instructions, or credits.
+- `/game` renders Game. Game initializes one game session at level 1 when the
+  page component mounts. It does not restore a previous game from storage.
+- `/how-to-play` renders static instructions and a navigation action to start
+  the game.
+- `/credits` renders static credits/technology/feature copy and navigation.
+- App.jsx has no explicit catch-all route for unknown paths; the router renders
+  no matching page content for an unknown URL.
+- Route-level pages are exported as named exports from their page modules.
+  App.jsx is the default export and owns route registration.
+
+Game state lifecycle
+--------------------
+1. `useWordle(1)` constructs a `Wordle` instance and snapshots `game.getState()`
+   into React state. A selected answer is therefore fixed for that instance.
+2. State includes the secret word, definition, numeric difficulty, word length,
+   submitted guesses, status, level, attempts used/allowed, and game-over flag.
+   The hook additionally tracks per-guess feedback, a status message, hints
+   used, last hint timestamp, chat visibility, chat messages, and loading state.
+3. GuessInput accepts a complete A-Z word of exactly the selected word length.
+   On submit, Game's handler delegates to the hook, which calls the mutable
+   Wordle instance. Valid guesses update the engine and then cause React state
+   and feedback history to be refreshed.
+4. An invalid guess is not recorded in the engine. Its validation message is
+   returned to the hook and stored as the page status message; GuessInput's own
+   local error is reserved for its length check. Valid but incorrect guesses
+   consume an attempt and add a feedback row.
+5. A correct guess sets the engine status to win. Reaching the configured
+   attempt count on an incorrect guess sets it to lose. Game then renders a
+   Next Level button for wins or Try Again for losses.
+6. Next Level increments the numeric level and selects a new random word;
+   Try Again selects a different random word at the same level. Both reset
+   guesses, status, feedback, hint usage, and chat messages. They do not
+   preserve/replay the previous answer or attempt history.
+7. Leaving and re-entering `/game` mounts a fresh hook and starts at level 1.
+   Refreshing likewise discards the in-memory game. No localStorage,
+   sessionStorage, cookie, or server session is used by the active hook.
+
+Game engine contract (src/game/wordle.js)
+-----------------------------------------
+- Constructor input: optional numeric level, defaulting to 1.
+- Constructor side effect: random selection from the locally imported
+  dictionary through `selectWordByLevel(level)`.
+- `isValidGuess(guess)` returns `{ valid: true }` or
+  `{ valid: false, message }`. It trims and uppercases before checking exact
+  length, ASCII A-Z only, and exact duplicate prior guesses.
+- It does not check whether a guess is a real dictionary entry. Any distinct
+  A-Z string of the right length can be submitted.
+- `submitGuess(guess)` returns `{ success: false, message }` on validation
+  failure. A valid guess returns `{ success, feedback, isCorrect, attempts,
+  maxAttempts }`, appends the uppercase guess, and may change status.
+- Feedback values are the configured strings `correct`, `misplaced`, and
+  `unused`. The algorithm marks all exact matches first, then assigns at most
+  one misplaced match for each remaining answer-letter occurrence. This
+  matters for guesses containing repeated letters.
+- `getState()` exposes the full selected answer along with normal game data;
+  this is convenient for the UI but means it is not a secret-preserving API.
+- `getHintData()` also returns the full answer plus definition, guesses, level,
+  difficulty, and length for the client-side hint pipeline.
+- The class does not reject calls to submitGuess after win/loss. The UI disables
+  input after game over, but game-over enforcement is therefore primarily a
+  UI constraint rather than an engine-level guard.
+
+Word selection and level configuration
+---------------------------------------
+`src/config/gameConfig.js` and `src/game/wordSelector.js` each contain level
+rules. They are separate mappings and can drift:
+
+- gameConfig.js configures attempt limits and names for levels 1-12.
+- wordSelector.js independently configures allowed word length and maximum
+  dictionary difficulty for levels 1-12.
+- For a level missing from the explicit selector mapping, the selector allows
+  words of length 5 through 7 and difficulty 4 or below. The engine's attempt
+  limit for a level missing from gameConfig falls back to level 1's setting.
+- If a selected level produces no candidates, wordSelector.js warns and
+  recursively selects at level 1. This changes the actual answer's length and
+  difficulty from what the requested level might imply.
+- Selection uses Math.random() over eligible dictionary records. There is no
+  deterministic seed, weighting, repeat avoidance, or server-side selection.
+- Dictionary file profile observed at this snapshot: 861 records; lengths:
+  4 letters (7), 5 (317), 6 (455), 7 (63), 8 (17), 9 (1), and 10 (1);
+  difficulty scores: 1 (67), 2 (468), 3 (279), and 4 (47). Since explicit
+  levels 1-12 request lengths 5, 6, or 7, records of other lengths are not
+  eligible at those levels. These counts are an inventory snapshot and should
+  be recomputed if dictionary.json changes.
+- The schema is informally expected to have word, definition, difficulty,
+  length, and category. There is no runtime schema validation during import.
+
+Hint request lifecycle and AI payload
+-------------------------------------
+1. Game.jsx offers a "Give me a hint" choice in the Hangman dialogue.
+2. useWordle.requestHintWithChat() calls requestHint(), which checks the
+   configured per-game maximum and cooldown. The current config allows three
+   hints per game with a 30-second cooldown.
+3. When allowed, requestHint() increments hint usage and records the timestamp
+   before network success is known. Failed/errored AI calls still consume a
+   hint and start the cooldown. Reset/level advance clears both.
+4. The hook calls getHintContext(), which obtains Wordle.getHintData() and
+   passes it to createHintContext(). That context includes the answer and
+   definition as well as guesses, level, length, difficulty label, and
+   configured game difficulty. It includes `attemptRemaining`, calculated as
+   `6 - guesses.length`, irrespective of level-specific attempt limits.
+5. aiService.getAIHint() expects a context with targetWord,
+   targetDefinition, guesses, level, attemptsUsed, maxAttempts, and optional
+   letter feedback arrays. The object produced by createHintContext() does
+   not supply attemptsUsed or maxAttempts. As wired, attemptsUsed destructures
+   to undefined; the service's attempt-mode comparisons consequently do not
+   select the intended early/middle modes, and the prompt receives an undefined
+   attempt value. The feedback arrays are not populated by the hook either.
+6. The service sends two messages (system and user) with a model, token limit,
+   and temperature. The system prompt includes instructions about not revealing
+   the answer. The client sends the actual answer in the user prompt because
+   the model needs it to produce a clue. Response handling takes the first
+   line, strips simple surrounding quotes and a "Hint:" prefix, adds a period
+   if absent, and checks basic length/placeholder format. This is not a
+   content-safety classifier and does not reliably verify answer secrecy.
+7. The hook appends the returned hint or a user-readable error to chatMessages.
+   Game.jsx renders the latest AI message in the dialogue after the request
+   completes. The separate HintChat component is not part of this active path.
+
+Dialogue request lifecycle
+--------------------------
+- Game.jsx defines two dialogue choices: "Are you okay?" and "Give me a hint".
+- The first calls dialogueService.generateDialogue() with the topic, tone, and
+  token limit. dialogueService chooses a persona, creates system/user prompts,
+  calls openrouterRequest(), and returns success/text/persona/model metadata
+  or a failure message.
+- The second uses the hint lifecycle above; it is not the dialogue service.
+- The hint chat transcript is kept in useWordle hook state for the current
+  level. Persona responses are kept separately in Game.jsx's local aiState.
+  User interaction is constrained to preset choices; there is no free-text
+  question input.
+- A request in progress sets loading state and disables dialogue options.
+  Errors are shown as response text; there is no retry/backoff policy.
+
+AI request shapes
+-----------------
+Both services use a JSON chat-completions request with a `model` and `messages`
+array of `{ role, content }` objects. The hint request also sets
+`max_tokens: 100` and `temperature: 0.7`. Dialogue defaults to
+`max_tokens: 80` and `temperature: 0.8`, with those values and tone/persona
+selectable by the caller. The shared client POSTs JSON and parses a JSON
+response; service code reads the first choice's message content.
+
+The proxy accepts any JSON object at the named path and forwards the parsed
+object rather than imposing a project-specific request schema. It does not
+restrict which model, role, token limit, or message content a caller supplies.
+The browser-side service uses only the response text it expects, although the
+dialogue service also returns the raw provider response object to its caller.
+
+AI transport and environment matrix
+-----------------------------------
+Relevant variable names (values are intentionally not reproduced here):
+
+- `OPENROUTER_API_KEY`: server-side key read by server.js from process
+  environment or a local .env file.
+- `VITE_OPENROUTER_API_KEY`: client-side key read by openrouterClient.js for
+  direct browser requests; the same name is also accepted as a fallback by
+  server.js. Any VITE_ variable consumed by client code must be considered
+  public in a client build.
+- `VITE_OPENROUTER_MODEL`: optional model override; both AI services otherwise
+  default to `gpt-4o-mini`.
+- `VITE_USE_PROXY`: exact string `true` selects proxy mode. Vite development
+  mode also selects proxy mode by default.
+- `PORT`: optional server.js listen-port override; defaults to 4000.
+
+Transport modes:
+
+- Development default: frontend fetches same-origin `/api/openrouter` because
+  `import.meta.env.DEV` is true. Vite listens on 3000; server.js listens on
+  4000. The inspected Vite config has no proxy rule, so unless another
+  deployment layer forwards that path, requests hit Vite rather than
+  server.js. Starting `npm run proxy` alone does not bridge the ports.
+- Production proxy mode: setting VITE_USE_PROXY to `true` keeps the browser
+  request relative, but a hosting reverse proxy must route `/api/openrouter`
+  to the separately deployed server.js process. That routing is not configured
+  in this repository.
+- Production direct mode: if proxy mode is off, the browser calls OpenRouter
+  directly and uses a VITE_OPENROUTER_API_KEY value. This places the credential
+  in a browser-accessible application and is not suitable for a confidential
+  server secret.
+- server.js replies with wildcard CORS headers, including for OPTIONS. It is a
+  raw HTTP relay and does not restrict origins, authenticate callers, limit
+  request size, apply quotas, or validate model/prompt fields before forwarding.
+- The source contains two OpenRouter host forms: openrouterClient.js uses
+  `https://api.openrouter.ai/v1/chat/completions` for direct calls, while
+  server.js targets `https://openrouter.ai/v1/chat/completions`. Confirm the
+  proxy target against the provider's current API documentation before release.
+- Proxy-level HTTP failures are passed through as status and response text;
+  thrown server-side errors are logged and returned as 502 JSON. The client
+  throws for non-2xx responses and the higher-level AI services convert those
+  failures to result objects.
+
+Data inventory and confidentiality
+----------------------------------
+- Application data is static and embedded in the client build: the dictionary
+  plus game rules and presentation strings.
+- There is no user account identifier, server-side game record, database,
+  storage retention policy, or application telemetry code in the inspected
+  active path.
+- AI network requests contain prompt text that includes the target word,
+  definition, guesses, level, and related context. Dialogue requests contain
+  preset topic text. These requests leave the browser and are sent to the
+  configured OpenRouter endpoint, directly or through the local proxy.
+- The app does not make a confidentiality guarantee for answers: the
+  dictionary is downloaded as a client asset, the engine stores the selected
+  answer client-side, and hook output includes the answer.
+- The repository does not document user-facing disclosure, provider data
+  retention settings, or a privacy policy. Those should be reviewed separately
+  before public deployment.
+
+UI inputs, outputs, and limitations
+-----------------------------------
+- GuessInput is the only active guess-entry component. It accepts letters
+  A-Z, uppercases input, limits length, and submits on form submission. It has
+  no dictionary-membership check, virtual keyboard, or explicit auto-focus.
+- GameBoard renders submitted rows and all remaining blank rows; it does not
+  show partial/in-progress letters because only full words are submitted.
+- HangmanAI maps wrong guess count to a fixed set of seven visual descent
+  records (0 through 6, clamped at the final record). The component receives
+  maxAttempts for its progress percentage, but the visual state itself is
+  clamped to the fixed array and is not derived from per-level attempt count.
+- Game.jsx computes wrongGuesses as guesses.length, subtracting one when the
+  current status is win. This prevents a winning guess from advancing the
+  character; other accepted guesses, including wrong words, advance it.
+- GameStatus renders text only. Retry and level advancement are managed by
+  Game.jsx.
+- Styling is split among uiTheme inline objects, global CSS, Tailwind classes
+  used by HintChat/ChatMessage, and a generated layout string in GameLayout.
+  The active Game page uses index.css classes rather than GameLayout.
+- DialogChoiceBox is an overlay but is not implemented with a portal or
+  explicit focus trap. Its backdrop closes on click. The close button title
+  mentions ESC, but no keyboard escape handler is visible in this component.
+
+Error and operational behavior
+------------------------------
+- Guess validation errors are returned as simple messages and do not throw.
+- Word selection logs a warning and falls back to level 1 if no candidate
+  exists.
+- AI network/HTTP/response errors are caught by the hint and dialogue services
+  and returned as failure-shaped objects; the hook displays error text in chat.
+- The hint hook increments its counter before calling the external AI service,
+  so temporary provider/proxy outages still use a hint.
+- server.js attempts a local .env parse only if the process key is absent.
+  If no key is found it warns at startup, but still starts listening; upstream
+  requests then depend on the resulting authorization header being accepted.
+- The proxy reads the full request body into memory before parsing; there is
+  no explicit byte limit or request timeout in the inspected implementation.
+- `scripts/testProxy.js` only reports the response and status; it does not
+  assert configuration correctness, failure handling, security properties,
+  or correctness of game logic.
+
+Audit handoff scope and limits
+------------------------------
+- This document describes the repository's declared and observed source
+  behavior. It is intended to let a reviewer understand scope and focus an
+  audit without first navigating the project tree; it is not a substitute for
+  independent verification or a security approval.
+- It does not inspect or reproduce the contents of .env, browser storage,
+  provider account settings, deployment infrastructure, DNS/TLS configuration,
+  reverse-proxy rules, runtime logs, or third-party provider retention policy.
+- Installed packages and generated dist assets are excluded from authored
+  source descriptions. Use package-lock.json and a separate dependency
+  vulnerability/SBOM process to assess the resolved supply chain.
+- No runtime app, build, test suite, live OpenRouter request, or proxy request
+  was executed as part of preparing this documentation update.
+- The word-count/difficulty totals and dist filenames describe the inspected
+  workspace snapshot; they can become stale when data or build outputs change.
+- The observations below are architectural facts or areas to verify. They are
+  not severity ratings, exploit demonstrations, or a claim that every possible
+  vulnerability has been identified.
+
+Audit-oriented observations (source/documentation alignment)
+------------------------------------------------------------
+- Current runtime AI provider is OpenRouter. README.md, instructions.md,
+  aiService.js comments, and Credits.jsx include old Groq/model references.
+- The game takes whole-word guesses; documentation claiming letter-by-letter
+  entry or a virtual keyboard does not describe GuessInput.jsx.
+- The target word is present in frontend state and bundled dictionary data,
+  and is included in the hint context sent from the browser. This architecture
+  should not be treated as keeping answers confidential from the client.
+- The OpenRouter proxy has wildcard CORS and no authentication or request-size
+  controls in the current source. The dev client uses a relative API path, but
+  Vite has no configured proxy to server.js.
+- Hint safeguards are primarily prompt instructions and basic format checks;
+  the source does not establish that generated text can never reveal an answer.
+- README.md claims session persistence, but useWordle.js does not persist game
+  state. Credits.jsx repeats this mismatch.
+- No test framework, test files, lint script, or CI configuration appeared in
+  the inspected project file inventory. scripts/testProxy.js is an ad hoc
+  external-service request and does not test game rules.
+- Some components and helpers are currently unused or overlap: AIDialogueBox
+  and DialogChoiceBox, GameLayout, HazardDisplay, HintChat, wordList.js, and
+  the formatter in hintService.js.
+- Difficulty configuration is split between gameConfig.js and a separate
+  level mapping in wordSelector.js. Changes to level rules should account for
+  both.
+
+Suggested audit entry points
+----------------------------
+1. Secret handling and request routing: .env, server.js,
+   src/services/openrouterClient.js, vite.config.js.
+2. Exposure/handling of game answers: src/data/dictionary.json,
+   src/game/wordSelector.js, src/game/wordle.js, src/hooks/useWordle.js.
+3. AI prompt and response handling: src/services/aiService.js,
+   src/services/dialogueService.js, src/services/hintService.js.
+4. Game correctness and edge cases: src/config/gameConfig.js,
+   src/game/wordle.js, src/game/wordSelector.js, src/hooks/useWordle.js.
+5. UI accessibility and interaction behavior: src/components/,
+   src/pages/Game.jsx, src/index.css.
+
+END OF OVERVIEW
